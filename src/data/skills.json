@@ -1,0 +1,362 @@
+{
+  "skills": [
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Programming",
+      "difficulty": "Beginner",
+      "difficultyLevel": 1,
+      "learningTime": "3-6 months",
+      "learningHours": 400,
+      "marketDemand": "Very High",
+      "demandScore": 95,
+      "futureGrowth": "15%",
+      "salaryImpact": "+$12,000",
+      "relatedCareers": [
+        "ai-engineer",
+        "machine-learning-engineer",
+        "data-scientist",
+        "backend-developer",
+        "full-stack-developer",
+        "devops-engineer"
+      ],
+      "description": "Python is a versatile, beginner-friendly programming language used in web development, data science, AI, and automation. Its simple syntax makes it ideal for beginners.",
+      "resources": [
+        "Automate the Boring Stuff",
+        "Python for Data Science",
+        "Real Python"
+      ],
+      "certifications": [
+        "PCEP",
+        "PCAP",
+        "Google IT Automation with Python"
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Programming",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 2,
+      "learningTime": "4-8 months",
+      "learningHours": 500,
+      "marketDemand": "Very High",
+      "demandScore": 98,
+      "futureGrowth": "12%",
+      "salaryImpact": "+$10,000",
+      "relatedCareers": [
+        "frontend-developer",
+        "backend-developer",
+        "full-stack-developer",
+        "ui-ux-designer"
+      ],
+      "description": "JavaScript is the language of the web. It powers interactive websites, backend servers, and mobile applications. Essential for every web developer.",
+      "resources": [
+        "JavaScript: The Good Parts",
+        "Eloquent JavaScript",
+        "JavaScript.info"
+      ],
+      "certifications": [
+        "Meta JavaScript Developer",
+        "freeCodeCamp JS Algorithms"
+      ]
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "Framework",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 3,
+      "learningTime": "2-4 months",
+      "learningHours": 300,
+      "marketDemand": "Very High",
+      "demandScore": 92,
+      "futureGrowth": "10%",
+      "salaryImpact": "+$8,000",
+      "relatedCareers": [
+        "frontend-developer",
+        "full-stack-developer",
+        "ui-ux-designer"
+      ],
+      "description": "React is the most popular frontend library for building user interfaces. Created by Meta, it's used by thousands of companies worldwide.",
+      "resources": [
+        "React Documentation",
+        "The Road to React",
+        "Epic React by Kent C. Dodds"
+      ],
+      "certifications": [
+        "Meta React Developer",
+        "freeCodeCamp Frontend"
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "category": "Programming",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 3,
+      "learningTime": "6-12 months",
+      "learningHours": 700,
+      "marketDemand": "High",
+      "demandScore": 85,
+      "futureGrowth": "8%",
+      "salaryImpact": "+$9,000",
+      "relatedCareers": [
+        "backend-developer",
+        "android-developer",
+        "cloud-engineer",
+        "devops-engineer"
+      ],
+      "description": "Java is a robust, object-oriented language used in enterprise applications, Android development, and large-scale systems. Known for its stability and performance.",
+      "resources": [
+        "Head First Java",
+        "Effective Java",
+        "Java Brains"
+      ],
+      "certifications": [
+        "OCA/OCP",
+        "AWS Java Developer",
+        "Spring Professional"
+      ]
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "category": "Programming",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "learningTime": "8-12 months",
+      "learningHours": 900,
+      "marketDemand": "High",
+      "demandScore": 80,
+      "futureGrowth": "6%",
+      "salaryImpact": "+$11,000",
+      "relatedCareers": [
+        "game-developer",
+        "systems-engineer",
+        "embedded-developer",
+        "ai-engineer"
+      ],
+      "description": "C++ is a high-performance language used in game engines, operating systems, embedded systems, and high-frequency trading. It provides low-level control.",
+      "resources": [
+        "C++ Primer",
+        "The C++ Programming Language",
+        "learncpp.com"
+      ],
+      "certifications": [
+        "C++ Institute Certification",
+        "Microsoft C++ Developer"
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "category": "Database",
+      "difficulty": "Beginner",
+      "difficultyLevel": 2,
+      "learningTime": "2-3 months",
+      "learningHours": 200,
+      "marketDemand": "Very High",
+      "demandScore": 96,
+      "futureGrowth": "10%",
+      "salaryImpact": "+$7,000",
+      "relatedCareers": [
+        "backend-developer",
+        "data-scientist",
+        "data-engineer",
+        "full-stack-developer",
+        "devops-engineer"
+      ],
+      "description": "SQL is the standard language for managing and querying databases. Every data role requires SQL knowledge, making it one of the most essential skills.",
+      "resources": [
+        "SQL for Data Scientists",
+        "Mode Analytics SQL",
+        "SQLBolt"
+      ],
+      "certifications": [
+        "Microsoft SQL Server",
+        "Oracle Database",
+        "AWS Database Specialty"
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "category": "DevOps",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 3,
+      "learningTime": "2-4 months",
+      "learningHours": 250,
+      "marketDemand": "Very High",
+      "demandScore": 88,
+      "futureGrowth": "18%",
+      "salaryImpact": "+$10,000",
+      "relatedCareers": [
+        "devops-engineer",
+        "cloud-engineer",
+        "backend-developer",
+        "full-stack-developer"
+      ],
+      "description": "Docker is the standard for containerization. It allows developers to package applications with all dependencies, ensuring consistency across environments.",
+      "resources": [
+        "Docker Deep Dive",
+        "Docker Documentation",
+        "Docker Mastery on Udemy"
+      ],
+      "certifications": [
+        "Docker Certified Associate",
+        "AWS Container Services"
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "category": "Cloud",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "learningTime": "4-8 months",
+      "learningHours": 500,
+      "marketDemand": "Very High",
+      "demandScore": 94,
+      "futureGrowth": "20%",
+      "salaryImpact": "+$15,000",
+      "relatedCareers": [
+        "cloud-engineer",
+        "devops-engineer",
+        "backend-developer",
+        "machine-learning-engineer"
+      ],
+      "description": "AWS is the leading cloud platform. Skills in AWS are highly valued and can significantly increase your earning potential across multiple roles.",
+      "resources": [
+        "AWS Certified Solutions Architect",
+        "A Cloud Guru",
+        "AWS Documentation"
+      ],
+      "certifications": [
+        "AWS Solutions Architect",
+        "AWS Developer Associate",
+        "AWS DevOps Engineer"
+      ]
+    },
+    {
+      "id": "cloud-computing",
+      "name": "Cloud Computing",
+      "category": "Cloud",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "learningTime": "6-12 months",
+      "learningHours": 600,
+      "marketDemand": "Very High",
+      "demandScore": 93,
+      "futureGrowth": "22%",
+      "salaryImpact": "+$16,000",
+      "relatedCareers": [
+        "cloud-engineer",
+        "devops-engineer",
+        "backend-developer",
+        "security-engineer"
+      ],
+      "description": "Cloud computing encompasses designing, deploying, and managing applications on cloud platforms. It's the foundation of modern infrastructure.",
+      "resources": [
+        "Cloud Computing Fundamentals",
+        "AWS Cloud Practitioner",
+        "Google Cloud Platform"
+      ],
+      "certifications": [
+        "AWS Cloud Practitioner",
+        "Azure Fundamentals",
+        "Google Cloud Digital Leader"
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "category": "AI",
+      "difficulty": "Advanced",
+      "difficultyLevel": 5,
+      "learningTime": "8-12 months",
+      "learningHours": 800,
+      "marketDemand": "Very High",
+      "demandScore": 97,
+      "futureGrowth": "25%",
+      "salaryImpact": "+$20,000",
+      "relatedCareers": [
+        "machine-learning-engineer",
+        "ai-engineer",
+        "data-scientist",
+        "data-engineer"
+      ],
+      "description": "Machine Learning is a subset of AI focused on building systems that learn from data. It's driving innovations in healthcare, finance, and technology.",
+      "resources": [
+        "Hands-On Machine Learning",
+        "fast.ai",
+        "Machine Learning by Andrew Ng"
+      ],
+      "certifications": [
+        "AWS ML Specialty",
+        "Google Cloud ML Engineer",
+        "TensorFlow Developer"
+      ]
+    },
+    {
+      "id": "cyber-security",
+      "name": "Cyber Security",
+      "category": "Security",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "learningTime": "6-12 months",
+      "learningHours": 600,
+      "marketDemand": "Explosive",
+      "demandScore": 99,
+      "futureGrowth": "35%",
+      "salaryImpact": "+$18,000",
+      "relatedCareers": [
+        "cyber-security-engineer",
+        "security-analyst",
+        "cloud-engineer",
+        "devops-engineer"
+      ],
+      "description": "Cybersecurity skills protect organizations from digital threats. With increasing cyber attacks, this skill set is among the most in-demand globally.",
+      "resources": [
+        "CompTIA Security+",
+        "CISSP",
+        "Cybrary"
+      ],
+      "certifications": [
+        "CompTIA Security+",
+        "CISSP",
+        "CEH",
+        "GIAC"
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "category": "Framework",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 3,
+      "learningTime": "2-4 months",
+      "learningHours": 300,
+      "marketDemand": "High",
+      "demandScore": 87,
+      "futureGrowth": "12%",
+      "salaryImpact": "+$8,000",
+      "relatedCareers": [
+        "backend-developer",
+        "full-stack-developer",
+        "devops-engineer",
+        "cloud-engineer"
+      ],
+      "description": "Node.js is a runtime that allows JavaScript to run on servers. It's ideal for building fast, scalable network applications and real-time services.",
+      "resources": [
+        "Node.js Design Patterns",
+        "Node.js Documentation",
+        "The Node.js Master Class"
+      ],
+      "certifications": [
+        "OpenJS Node.js Developer",
+        "AWS Certified Developer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "id": "1",
+      "question": "What is FutureForge AI and how can it help my career?",
+      "answer": "FutureForge AI is an intelligent career platform that helps you explore future-ready careers, discover in-demand skills, analyze market trends, and receive AI-powered career guidance. We combine real-time market data with AI insights to help you make informed decisions about your professional future."
+    },
+    {
+      "id": "2",
+      "question": "Is FutureForge AI free to use?",
+      "answer": "Yes, our core features including career exploration, skill analysis, market intelligence, and learning roadmaps are completely free. Premium features like personalized AI coaching and advanced analytics are available through our subscription plans."
+    },
+    {
+      "id": "3",
+      "question": "How accurate is the career data on FutureForge AI?",
+      "answer": "Our data is sourced from leading industry reports, job market analytics platforms, and verified salary databases. We update our datasets quarterly to ensure accuracy. All statistics are based on real market data from sources like Glassdoor, LinkedIn, Bureau of Labor Statistics, and industry research reports."
+    },
+    {
+      "id": "4",
+      "question": "Can I use FutureForge AI without creating an account?",
+      "answer": "Absolutely. You can browse careers, explore skills, view market intelligence, and use our roadmaps without any registration. Creating an account unlocks features like bookmarking careers, saving progress, and personalized recommendations."
+    },
+    {
+      "id": "5",
+      "question": "How does the Career Quiz work?",
+      "answer": "Our Career Quiz uses a proprietary algorithm to match your interests, skills, and preferences with suitable career paths. It takes about 5 minutes to complete and provides personalized career recommendations based on your responses."
+    },
+    {
+      "id": "6",
+      "question": "Are the learning roadmaps beginner-friendly?",
+      "answer": "Yes, all our roadmaps are designed for learners at every level. Each roadmap includes beginner, intermediate, and advanced stages with curated resources. You can start from zero knowledge and build your way to professional expertise."
+    },
+    {
+      "id": "7",
+      "question": "How often is the market data updated?",
+      "answer": "We update our market intelligence data quarterly. Salary information, job growth projections, and industry trends are refreshed to reflect the latest market conditions. Emergency updates are pushed for major industry shifts."
+    },
+    {
+      "id": "8",
+      "question": "Can I compare multiple careers side by side?",
+      "answer": "Yes, our Career Comparison tool allows you to compare two careers across salary, demand, learning time, difficulty, future growth, and other key metrics. This helps you make informed decisions about which path to pursue."
+    },
+    {
+      "id": "9",
+      "question": "What makes FutureForge AI different from other career platforms?",
+      "answer": "Unlike generic job boards, FutureForge AI focuses on future-ready careers and emerging technologies. We provide AI-powered insights, market intelligence dashboards, interactive learning roadmaps, and a holistic view of career ecosystems rather than just job listings."
+    },
+    {
+      "id": "10",
+      "question": "Is there an AI Career Assistant available?",
+      "answer": "Yes, our AI Career Assistant is available to answer questions about careers, skills, market trends, and learning paths. It's designed to provide personalized guidance. The assistant will be enhanced with advanced AI capabilities in upcoming updates."
+    }
+  ]
+}

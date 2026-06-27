@@ -1,0 +1,848 @@
+{
+  "careers": [
+    {
+      "id": "frontend-developer",
+      "title": "Frontend Developer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$95,000 - $155,000",
+      "salaryMin": 95000,
+      "salaryMax": 155000,
+      "futureDemand": "Very High",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 3,
+      "education": "Bachelor's or Bootcamp",
+      "remoteAvailability": "High",
+      "experienceLevel": "Entry to Senior",
+      "overview": "Frontend developers build the visual and interactive elements of websites and applications. They translate design mockups into code using HTML, CSS, and JavaScript, creating seamless user experiences across all devices.",
+      "responsibilities": [
+        "Build responsive and interactive UI components",
+        "Implement designs from Figma or Sketch into code",
+        "Optimize performance and ensure cross-browser compatibility",
+        "Collaborate with designers and backend developers",
+        "Write clean, maintainable, and reusable code",
+        "Debug and fix frontend issues"
+      ],
+      "skillsRequired": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Git",
+        "Tailwind CSS",
+        "Responsive Design"
+      ],
+      "educationPath": "Bachelor's degree in Computer Science or a coding bootcamp. Self-taught developers are also common and successful.",
+      "futureScope": "Frontend development continues to grow with the rise of web applications, PWAs, and modern frameworks. New roles like WebGL developers and design system engineers are emerging.",
+      "marketDemand": "Extremely high. Every company needs a web presence, and user experience is critical. 95% of companies hiring frontend developers in 2024.",
+      "hiringIndustries": [
+        "SaaS",
+        "E-commerce",
+        "Fintech",
+        "Healthcare Tech",
+        "Media"
+      ],
+      "topCompanies": [
+        "Google",
+        "Meta",
+        "Vercel",
+        "Stripe",
+        "Netflix",
+        "Shopify"
+      ],
+      "certifications": [
+        "Meta Frontend Developer Professional Certificate",
+        "Google UX Design Certificate",
+        "AWS Certified Developer"
+      ],
+      "pros": [
+        "High demand and great salaries",
+        "Creative and visual work",
+        "Strong remote work opportunities",
+        "Fast feedback loop on your work"
+      ],
+      "cons": [
+        "Constantly evolving tools and frameworks",
+        "Browser compatibility challenges",
+        "Can be detail-intensive"
+      ],
+      "relatedCareers": [
+        "ui-ux-designer",
+        "full-stack-developer",
+        "backend-developer",
+        "devops-engineer"
+      ],
+      "faqs": [
+        {
+          "question": "Do I need a degree to become a frontend developer?",
+          "answer": "No. Many successful frontend developers are self-taught or bootcamp graduates. A strong portfolio is more important than a degree."
+        },
+        {
+          "question": "How long does it take to become a frontend developer?",
+          "answer": "With consistent study, 6-12 months can get you job-ready. Bootcamps typically take 3-6 months."
+        }
+      ]
+    },
+    {
+      "id": "backend-developer",
+      "title": "Backend Developer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$105,000 - $170,000",
+      "salaryMin": 105000,
+      "salaryMax": 170000,
+      "futureDemand": "Very High",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 3,
+      "education": "Bachelor's Degree",
+      "remoteAvailability": "High",
+      "experienceLevel": "Entry to Senior",
+      "overview": "Backend developers build the server-side logic, databases, and APIs that power applications. They ensure data flows securely and efficiently between servers and clients.",
+      "responsibilities": [
+        "Design and implement APIs and server logic",
+        "Build and manage databases",
+        "Ensure security and scalability",
+        "Optimize performance and query efficiency",
+        "Integrate third-party services",
+        "Write unit and integration tests"
+      ],
+      "skillsRequired": [
+        "Python",
+        "Node.js",
+        "Java",
+        "SQL",
+        "NoSQL",
+        "Docker",
+        "AWS",
+        "System Design"
+      ],
+      "educationPath": "Bachelor's degree in Computer Science or equivalent. Strong emphasis on data structures and algorithms.",
+      "futureScope": "As cloud computing and microservices grow, backend developers are increasingly in demand. Serverless and edge computing are creating new specializations.",
+      "marketDemand": "Very high. Every application needs a backend. 90% of companies actively hiring backend developers.",
+      "hiringIndustries": [
+        "Fintech",
+        "SaaS",
+        "E-commerce",
+        "Healthcare",
+        "Gaming"
+      ],
+      "topCompanies": [
+        "Google",
+        "Amazon",
+        "Stripe",
+        "Uber",
+        "Spotify",
+        "Airbnb"
+      ],
+      "certifications": [
+        "AWS Certified Solutions Architect",
+        "Google Cloud Professional Developer",
+        "Azure Developer Associate"
+      ],
+      "pros": [
+        "High salaries and stability",
+        "Deep technical challenges",
+        "Foundational role in every company",
+        "Strong remote opportunities"
+      ],
+      "cons": [
+        "Less visual feedback than frontend",
+        "Complex debugging",
+        "Requires strong algorithmic thinking"
+      ],
+      "relatedCareers": [
+        "full-stack-developer",
+        "devops-engineer",
+        "data-engineer",
+        "cloud-engineer"
+      ],
+      "faqs": [
+        {
+          "question": "What language should I learn first?",
+          "answer": "Python or Node.js are great starting points. Python is versatile; Node.js is strong for web applications."
+        },
+        {
+          "question": "Is backend harder than frontend?",
+          "answer": "Different challenges. Backend requires more systems thinking and database knowledge. Frontend demands more visual and UX sensitivity."
+        }
+      ]
+    },
+    {
+      "id": "full-stack-developer",
+      "title": "Full Stack Developer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$110,000 - $180,000",
+      "salaryMin": 110000,
+      "salaryMax": 180000,
+      "futureDemand": "Very High",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "education": "Bachelor's or Self-Taught",
+      "remoteAvailability": "High",
+      "experienceLevel": "Mid to Senior",
+      "overview": "Full stack developers handle both frontend and backend development. They can build complete applications from database to user interface, making them extremely versatile.",
+      "responsibilities": [
+        "Build complete end-to-end features",
+        "Design database schemas and API contracts",
+        "Create responsive user interfaces",
+        "Deploy and manage infrastructure",
+        "Optimize application performance",
+        "Lead technical architecture decisions"
+      ],
+      "skillsRequired": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "SQL",
+        "MongoDB",
+        "Docker",
+        "AWS",
+        "Git"
+      ],
+      "educationPath": "Bachelor's degree or equivalent. Full stack developers typically start as frontend or backend specialists and expand their skills.",
+      "futureScope": "Full stack developers are highly valued at startups and smaller companies. The demand for generalists who can own entire features remains strong.",
+      "marketDemand": "Extremely high. Startups and scaling companies prefer full stack developers for their versatility.",
+      "hiringIndustries": [
+        "Startups",
+        "SaaS",
+        "Fintech",
+        "E-commerce",
+        "Agencies"
+      ],
+      "topCompanies": [
+        "Vercel",
+        "Stripe",
+        "Shopify",
+        "Notion",
+        "Linear",
+        "GitHub"
+      ],
+      "certifications": [
+        "Meta Full Stack Developer Certificate",
+        "AWS Certified Solutions Architect",
+        "Google Cloud Professional Developer"
+      ],
+      "pros": [
+        "Complete ownership of features",
+        "Highly versatile and marketable",
+        "Great for startups and leadership",
+        "Broad understanding of systems"
+      ],
+      "cons": [
+        "Breadth vs depth trade-off",
+        "Keeping up with both frontend and backend",
+        "Can be overwhelming for beginners"
+      ],
+      "relatedCareers": [
+        "frontend-developer",
+        "backend-developer",
+        "devops-engineer",
+        "technical-lead"
+      ],
+      "faqs": [
+        {
+          "question": "Should I start as frontend or backend?",
+          "answer": "Start with what interests you most. Most developers begin on one side and naturally expand to full stack over time."
+        },
+        {
+          "question": "Are full stack developers paid more?",
+          "answer": "Generally yes, but the premium is modest. Specialized backend or infrastructure roles often pay more at the senior level."
+        }
+      ]
+    },
+    {
+      "id": "ai-engineer",
+      "title": "AI Engineer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$140,000 - $220,000",
+      "salaryMin": 140000,
+      "salaryMax": 220000,
+      "futureDemand": "Explosive",
+      "difficulty": "Advanced",
+      "difficultyLevel": 5,
+      "education": "Master's Degree Preferred",
+      "remoteAvailability": "Medium",
+      "experienceLevel": "Mid to Senior",
+      "overview": "AI Engineers design and build artificial intelligence systems. They work on machine learning models, neural networks, and intelligent systems that can learn, reason, and make decisions.",
+      "responsibilities": [
+        "Design and train machine learning models",
+        "Build AI-powered features and applications",
+        "Optimize model performance and accuracy",
+        "Deploy AI systems to production",
+        "Research and experiment with new techniques",
+        "Collaborate with data scientists and product teams"
+      ],
+      "skillsRequired": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Machine Learning",
+        "Deep Learning",
+        "NLP",
+        "Cloud Platforms",
+        "Mathematics"
+      ],
+      "educationPath": "Master's degree in Computer Science, AI, or related field. Strong mathematical background required. Some enter through bootcamps with specialized AI training.",
+      "futureScope": "AI is transforming every industry. The role is evolving rapidly with LLMs, generative AI, and autonomous systems creating massive demand.",
+      "marketDemand": "Explosive growth. AI talent is among the most in-demand globally. 300% increase in job postings over the past 2 years.",
+      "hiringIndustries": [
+        "Tech",
+        "Healthcare",
+        "Finance",
+        "Autonomous Vehicles",
+        "Research"
+      ],
+      "topCompanies": [
+        "OpenAI",
+        "Google DeepMind",
+        "Anthropic",
+        "Meta AI",
+        "NVIDIA",
+        "Microsoft"
+      ],
+      "certifications": [
+        "TensorFlow Developer Certificate",
+        "AWS Machine Learning Specialty",
+        "Google Cloud Professional ML Engineer"
+      ],
+      "pros": [
+        "Highest salaries in tech",
+        "Work on cutting-edge technology",
+        "Transform industries and impact lives",
+        "Strong research and publication opportunities"
+      ],
+      "cons": [
+        "Requires advanced mathematics",
+        "Rapidly changing landscape",
+        "Competitive and demanding",
+        "Requires continuous learning"
+      ],
+      "relatedCareers": [
+        "machine-learning-engineer",
+        "data-scientist",
+        "research-scientist",
+        "nlp-engineer"
+      ],
+      "faqs": [
+        {
+          "question": "Do I need a PhD to become an AI Engineer?",
+          "answer": "Not required, but helpful. Many successful AI Engineers have Master's degrees. A PhD is more relevant for research-focused roles."
+        },
+        {
+          "question": "How much math do I need?",
+          "answer": "Linear algebra, calculus, probability, and statistics are essential foundations. You can learn these alongside programming."
+        }
+      ]
+    },
+    {
+      "id": "machine-learning-engineer",
+      "title": "Machine Learning Engineer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$135,000 - $210,000",
+      "salaryMin": 135000,
+      "salaryMax": 210000,
+      "futureDemand": "Very High",
+      "difficulty": "Advanced",
+      "difficultyLevel": 5,
+      "education": "Master's Degree",
+      "remoteAvailability": "Medium",
+      "experienceLevel": "Mid to Senior",
+      "overview": "Machine Learning Engineers focus on building and deploying ML systems at scale. They bridge the gap between data science and software engineering, turning models into production-ready products.",
+      "responsibilities": [
+        "Build ML pipelines and infrastructure",
+        "Deploy and monitor models in production",
+        "Optimize model performance and latency",
+        "Build feature stores and data pipelines",
+        "Ensure model reliability and fairness",
+        "Automate ML workflows"
+      ],
+      "skillsRequired": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "MLOps",
+        "Docker",
+        "Kubernetes",
+        "SQL",
+        "Cloud Platforms"
+      ],
+      "educationPath": "Master's degree in Computer Science, Data Science, or related field. Strong software engineering skills are essential.",
+      "futureScope": "As AI adoption accelerates, ML Engineers are critical for scaling AI systems. MLOps is a rapidly growing specialization.",
+      "marketDemand": "Extremely high. Every company deploying AI needs ML Engineers. 200% increase in demand year-over-year.",
+      "hiringIndustries": [
+        "Tech",
+        "Finance",
+        "Healthcare",
+        "Retail",
+        "Manufacturing"
+      ],
+      "topCompanies": [
+        "Netflix",
+        "Spotify",
+        "Uber",
+        "Airbnb",
+        "Tesla",
+        "Amazon"
+      ],
+      "certifications": [
+        "AWS Machine Learning Specialty",
+        "Google Cloud Professional ML Engineer",
+        "TensorFlow Developer Certificate"
+      ],
+      "pros": [
+        "Highly compensated",
+        "Work on impactful AI systems",
+        "Combines engineering and research",
+        "Growing field with job security"
+      ],
+      "cons": [
+        "Complex debugging in production",
+        "Requires deep technical expertise",
+        "Managing model drift and failures"
+      ],
+      "relatedCareers": [
+        "ai-engineer",
+        "data-scientist",
+        "data-engineer",
+        "devops-engineer"
+      ],
+      "faqs": [
+        {
+          "question": "What's the difference between ML Engineer and Data Scientist?",
+          "answer": "ML Engineers focus on building and deploying models. Data Scientists focus on research, analysis, and deriving insights."
+        },
+        {
+          "question": "Is MLOps the same as DevOps?",
+          "answer": "MLOps is a specialized form of DevOps for machine learning. It includes model versioning, monitoring, and experiment tracking."
+        }
+      ]
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$120,000 - $190,000",
+      "salaryMin": 120000,
+      "salaryMax": 190000,
+      "futureDemand": "Very High",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "education": "Master's Degree",
+      "remoteAvailability": "High",
+      "experienceLevel": "Mid to Senior",
+      "overview": "Data Scientists analyze complex data to extract insights and inform business decisions. They use statistical methods, machine learning, and visualization to solve problems and identify opportunities.",
+      "responsibilities": [
+        "Analyze large datasets and extract insights",
+        "Build predictive models and statistical analyses",
+        "Create visualizations and dashboards",
+        "Communicate findings to stakeholders",
+        "Design experiments and A/B tests",
+        "Develop data-driven strategies"
+      ],
+      "skillsRequired": [
+        "Python",
+        "R",
+        "SQL",
+        "Machine Learning",
+        "Statistics",
+        "Tableau",
+        "Pandas",
+        "Data Visualization"
+      ],
+      "educationPath": "Master's degree in Data Science, Statistics, or related field. Some roles accept strong Bachelor's candidates with experience.",
+      "futureScope": "Data-driven decision making is becoming essential across all industries. Data Scientists are increasingly embedded in product and business teams.",
+      "marketDemand": "Very high. Companies in every industry are investing in data capabilities. 180% growth in job postings.",
+      "hiringIndustries": [
+        "Tech",
+        "Finance",
+        "Healthcare",
+        "Retail",
+        "Consulting"
+      ],
+      "topCompanies": [
+        "Google",
+        "Meta",
+        "Amazon",
+        "McKinsey",
+        "IBM",
+        "Deloitte"
+      ],
+      "certifications": [
+        "Google Data Analytics Certificate",
+        "IBM Data Science Professional Certificate",
+        "AWS Certified Data Analytics"
+      ],
+      "pros": [
+        "High impact on business decisions",
+        "Diverse industry opportunities",
+        "Strong analytical and creative work",
+        "Good remote work options"
+      ],
+      "cons": [
+        "Requires strong statistical knowledge",
+        "Can involve messy data cleaning",
+        "Results not always actionable"
+      ],
+      "relatedCareers": [
+        "machine-learning-engineer",
+        "data-analyst",
+        "data-engineer",
+        "business-analyst"
+      ],
+      "faqs": [
+        {
+          "question": "Data Scientist vs Data Analyst?",
+          "answer": "Data Scientists build predictive models and use ML. Data Analysts focus on reporting, dashboards, and descriptive statistics."
+        },
+        {
+          "question": "How important is a portfolio?",
+          "answer": "Very important. Projects on Kaggle, GitHub, or a personal blog demonstrating real-world analysis are key."
+        }
+      ]
+    },
+    {
+      "id": "cyber-security-engineer",
+      "title": "Cyber Security Engineer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$115,000 - $185,000",
+      "salaryMin": 115000,
+      "salaryMax": 185000,
+      "futureDemand": "Explosive",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "education": "Bachelor's Degree",
+      "remoteAvailability": "Medium",
+      "experienceLevel": "Mid to Senior",
+      "overview": "Cyber Security Engineers protect organizations from digital threats. They design secure systems, monitor for attacks, and respond to security incidents.",
+      "responsibilities": [
+        "Design and implement security architectures",
+        "Monitor and respond to security incidents",
+        "Conduct penetration testing and vulnerability assessments",
+        "Develop security policies and procedures",
+        "Manage identity and access controls",
+        "Ensure compliance with regulations"
+      ],
+      "skillsRequired": [
+        "Network Security",
+        "Python",
+        "Linux",
+        "Cryptography",
+        "SIEM Tools",
+        "Cloud Security",
+        "Risk Assessment",
+        "Incident Response"
+      ],
+      "educationPath": "Bachelor's degree in Cybersecurity, Computer Science, or IT. Certifications are highly valued in this field.",
+      "futureScope": "Cybersecurity threats are increasing. AI-powered attacks and expanding attack surfaces create massive demand for skilled professionals.",
+      "marketDemand": "Explosive. 3.5 million unfilled cybersecurity jobs globally. 35% growth in demand annually.",
+      "hiringIndustries": [
+        "Defense",
+        "Finance",
+        "Healthcare",
+        "Government",
+        "Tech"
+      ],
+      "topCompanies": [
+        "Palo Alto Networks",
+        "CrowdStrike",
+        "Fortinet",
+        "Cisco",
+        "IBM",
+        "Microsoft"
+      ],
+      "certifications": [
+        "CompTIA Security+",
+        "CISSP",
+        "CEH",
+        "AWS Certified Security"
+      ],
+      "pros": [
+        "Extremely high job security",
+        "Critical and impactful work",
+        "Competitive salaries",
+        "Diverse specializations"
+      ],
+      "cons": [
+        "High pressure and on-call duties",
+        "Constant threat of new attacks",
+        "Requires continuous certification updates"
+      ],
+      "relatedCareers": [
+        "cloud-engineer",
+        "devops-engineer",
+        "network-engineer",
+        "security-analyst"
+      ],
+      "faqs": [
+        {
+          "question": "Is cybersecurity a good career for beginners?",
+          "answer": "Yes, but it typically requires foundational IT knowledge. Many start in IT support or networking and transition into security."
+        },
+        {
+          "question": "Do I need certifications?",
+          "answer": "Certifications are highly valued. CompTIA Security+ is a great starting point. CISSP is the gold standard for senior roles."
+        }
+      ]
+    },
+    {
+      "id": "cloud-engineer",
+      "title": "Cloud Engineer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$120,000 - $195,000",
+      "salaryMin": 120000,
+      "salaryMax": 195000,
+      "futureDemand": "Very High",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "education": "Bachelor's Degree",
+      "remoteAvailability": "High",
+      "experienceLevel": "Mid to Senior",
+      "overview": "Cloud Engineers design, build, and manage cloud infrastructure. They ensure applications run efficiently on AWS, Azure, or Google Cloud Platform.",
+      "responsibilities": [
+        "Design cloud architectures and migrations",
+        "Manage infrastructure as code",
+        "Optimize costs and performance",
+        "Ensure security and compliance in cloud",
+        "Build CI/CD pipelines",
+        "Monitor and troubleshoot cloud systems"
+      ],
+      "skillsRequired": [
+        "AWS",
+        "Azure",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "Python",
+        "Linux",
+        "Networking"
+      ],
+      "educationPath": "Bachelor's degree in IT or Computer Science. Cloud certifications are essential and often valued more than degrees.",
+      "futureScope": "Cloud adoption continues to accelerate. Multi-cloud and hybrid cloud strategies are creating new specializations. Cloud-native development is the norm.",
+      "marketDemand": "Very high. 90% of enterprises are migrating to cloud. Cloud Engineers are among the top 3 most in-demand tech roles.",
+      "hiringIndustries": [
+        "Tech",
+        "Finance",
+        "Healthcare",
+        "Retail",
+        "Government"
+      ],
+      "topCompanies": [
+        "AWS",
+        "Microsoft",
+        "Google",
+        "IBM",
+        "Oracle",
+        "Salesforce"
+      ],
+      "certifications": [
+        "AWS Solutions Architect",
+        "Azure Solutions Architect",
+        "Google Cloud Professional Architect",
+        "CKA"
+      ],
+      "pros": [
+        "High salaries and demand",
+        "Work with cutting-edge infrastructure",
+        "Strong remote work options",
+        "Clear certification path"
+      ],
+      "cons": [
+        "Requires continuous learning",
+        "Can be on-call for outages",
+        "Complex multi-cloud environments"
+      ],
+      "relatedCareers": [
+        "devops-engineer",
+        "backend-developer",
+        "security-engineer",
+        "site-reliability-engineer"
+      ],
+      "faqs": [
+        {
+          "question": "Which cloud platform should I learn first?",
+          "answer": "AWS has the largest market share. Azure is strong in enterprise. Google Cloud is excellent for data and AI workloads."
+        },
+        {
+          "question": "Is cloud engineering the same as DevOps?",
+          "answer": "Related but distinct. Cloud Engineers focus on infrastructure. DevOps Engineers focus on deployment pipelines and automation."
+        }
+      ]
+    },
+    {
+      "id": "ui-ux-designer",
+      "title": "UI/UX Designer",
+      "category": "Design",
+      "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$85,000 - $145,000",
+      "salaryMin": 85000,
+      "salaryMax": 145000,
+      "futureDemand": "High",
+      "difficulty": "Intermediate",
+      "difficultyLevel": 3,
+      "education": "Bachelor's or Bootcamp",
+      "remoteAvailability": "High",
+      "experienceLevel": "Entry to Senior",
+      "overview": "UI/UX Designers create intuitive and beautiful digital experiences. They conduct user research, design interfaces, and ensure products are both functional and delightful.",
+      "responsibilities": [
+        "Conduct user research and usability testing",
+        "Create wireframes and prototypes",
+        "Design visual interfaces and design systems",
+        "Collaborate with developers and product managers",
+        "Ensure accessibility and inclusivity",
+        "Iterate based on user feedback"
+      ],
+      "skillsRequired": [
+        "Figma",
+        "Sketch",
+        "User Research",
+        "Prototyping",
+        "Visual Design",
+        "Design Systems",
+        "Accessibility",
+        "HTML/CSS Basics"
+      ],
+      "educationPath": "Bachelor's degree in Design or HCI, or a UX bootcamp. Portfolio is the most important credential.",
+      "futureScope": "As digital products become more complex, UX becomes a competitive advantage. AI-assisted design tools are changing workflows but increasing demand for strategic UX.",
+      "marketDemand": "High. Every company investing in digital products needs UX. 75% of companies hiring UI/UX designers.",
+      "hiringIndustries": [
+        "Tech",
+        "Fintech",
+        "Healthcare",
+        "E-commerce",
+        "Agencies"
+      ],
+      "topCompanies": [
+        "Apple",
+        "Airbnb",
+        "Google",
+        "Notion",
+        "Figma",
+        "Stripe"
+      ],
+      "certifications": [
+        "Google UX Design Certificate",
+        "NN/g UX Master Certificate",
+        "Interaction Design Foundation"
+      ],
+      "pros": [
+        "Creative and human-centered work",
+        "Direct impact on user satisfaction",
+        "Strong remote work options",
+        "Diverse project types"
+      ],
+      "cons": [
+        "Subjective feedback and opinions",
+        "Tight deadlines and iteration cycles",
+        "Requires balancing business and user needs"
+      ],
+      "relatedCareers": [
+        "frontend-developer",
+        "product-designer",
+        "graphic-designer",
+        "design-ops"
+      ],
+      "faqs": [
+        {
+          "question": "UI vs UX: what's the difference?",
+          "answer": "UI is visual design, colors, typography. UX is the overall experience, research, and user journey. Many roles combine both."
+        },
+        {
+          "question": "Do I need to code?",
+          "answer": "Not required but helpful. Basic HTML/CSS helps communicate with developers and prototype interactions."
+        }
+      ]
+    },
+    {
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "category": "Technology",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "averageSalary": "$125,000 - $200,000",
+      "salaryMin": 125000,
+      "salaryMax": 200000,
+      "futureDemand": "Very High",
+      "difficulty": "Advanced",
+      "difficultyLevel": 4,
+      "education": "Bachelor's Degree",
+      "remoteAvailability": "High",
+      "experienceLevel": "Mid to Senior",
+      "overview": "DevOps Engineers bridge development and operations. They automate deployments, manage infrastructure, and ensure reliable, fast software delivery.",
+      "responsibilities": [
+        "Build and maintain CI/CD pipelines",
+        "Automate infrastructure provisioning",
+        "Monitor system health and performance",
+        "Manage containerization and orchestration",
+        "Ensure security in deployment pipelines",
+        "Optimize developer productivity"
+      ],
+      "skillsRequired": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "CI/CD",
+        "Python",
+        "Linux",
+        "Monitoring Tools"
+      ],
+      "educationPath": "Bachelor's degree in Computer Science or IT. DevOps is often a progression from system administration or backend development.",
+      "futureScope": "DevOps is becoming standard practice. Platform engineering and SRE are emerging specializations. GitOps and AI-assisted operations are trends.",
+      "marketDemand": "Very high. Every company shipping software needs DevOps. 40% of organizations are expanding DevOps teams.",
+      "hiringIndustries": [
+        "Tech",
+        "Fintech",
+        "SaaS",
+        "E-commerce",
+        "Media"
+      ],
+      "topCompanies": [
+        "Netflix",
+        "Google",
+        "Spotify",
+        "Amazon",
+        "GitHub",
+        "GitLab"
+      ],
+      "certifications": [
+        "AWS DevOps Engineer",
+        "CKA",
+        "Terraform Associate",
+        "Azure DevOps Engineer"
+      ],
+      "pros": [
+        "High impact on team productivity",
+        "Strong automation and tooling focus",
+        "Competitive compensation",
+        "In-demand and versatile"
+      ],
+      "cons": [
+        "Can be on-call for production issues",
+        "Broad skill set required",
+        "Balancing speed vs stability"
+      ],
+      "relatedCareers": [
+        "cloud-engineer",
+        "site-reliability-engineer",
+        "backend-developer",
+        "platform-engineer"
+      ],
+      "faqs": [
+        {
+          "question": "DevOps vs SRE?",
+          "answer": "DevOps is a culture and practice. SRE is a specific role focused on reliability and SLAs. SREs are typically more ops-focused."
+        },
+        {
+          "question": "How do I get into DevOps?",
+          "answer": "Start with Linux, scripting, and cloud basics. Learn Docker and CI/CD tools. Many DevOps Engineers come from sysadmin or backend roles."
+        }
+      ]
+    }
+  ]
+}

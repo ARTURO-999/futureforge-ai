@@ -1,0 +1,67 @@
+{
+  "highestPayingCareers": [
+    { "name": "AI Engineer", "salary": "$220,000", "growth": "25%" },
+    { "name": "Machine Learning Engineer", "salary": "$210,000", "growth": "22%" },
+    { "name": "Cloud Engineer", "salary": "$195,000", "growth": "18%" },
+    { "name": "DevOps Engineer", "salary": "$200,000", "growth": "20%" },
+    { "name": "Data Scientist", "salary": "$190,000", "growth": "15%" },
+    { "name": "Cyber Security Engineer", "salary": "$185,000", "growth": "35%" },
+    { "name": "Backend Developer", "salary": "$170,000", "growth": "12%" },
+    { "name": "Full Stack Developer", "salary": "$180,000", "growth": "14%" }
+  ],
+  "fastestGrowingCareers": [
+    { "name": "Cyber Security Engineer", "growth": "35%", "jobs": "3.5M" },
+    { "name": "AI Engineer", "growth": "25%", "jobs": "1.2M" },
+    { "name": "Cloud Engineer", "growth": "22%", "jobs": "2.8M" },
+    { "name": "DevOps Engineer", "growth": "20%", "jobs": "1.5M" },
+    { "name": "Machine Learning Engineer", "growth": "22%", "jobs": "900K" },
+    { "name": "Data Scientist", "growth": "15%", "jobs": "2.1M" },
+    { "name": "Full Stack Developer", "growth": "14%", "jobs": "3.2M" },
+    { "name": "Frontend Developer", "growth": "12%", "jobs": "2.5M" }
+  ],
+  "mostInDemandSkills": [
+    { "name": "Python", "demand": 99, "category": "Programming" },
+    { "name": "Cyber Security", "demand": 99, "category": "Security" },
+    { "name": "Machine Learning", "demand": 97, "category": "AI" },
+    { "name": "SQL", "demand": 96, "category": "Database" },
+    { "name": "JavaScript", "demand": 98, "category": "Programming" },
+    { "name": "AWS", "demand": 94, "category": "Cloud" },
+    { "name": "Cloud Computing", "demand": 93, "category": "Cloud" },
+    { "name": "React", "demand": 92, "category": "Framework" },
+    { "name": "Docker", "demand": 88, "category": "DevOps" },
+    { "name": "Node.js", "demand": 87, "category": "Framework" }
+  ],
+  "topHiringIndustries": [
+    { "name": "Technology", "growth": 28, "jobs": "12.5M" },
+    { "name": "Finance", "growth": 22, "jobs": "8.3M" },
+    { "name": "Healthcare", "growth": 18, "jobs": "6.1M" },
+    { "name": "E-commerce", "growth": 15, "jobs": "4.2M" },
+    { "name": "Education", "growth": 12, "jobs": "3.8M" },
+    { "name": "Manufacturing", "growth": 10, "jobs": "5.5M" },
+    { "name": "Media", "growth": 9, "jobs": "2.1M" },
+    { "name": "Government", "growth": 8, "jobs": "3.2M" }
+  ],
+  "industryGrowth": [
+    { "name": "AI Industry", "growth": 45, "marketSize": "$200B" },
+    { "name": "Cybersecurity", "growth": 35, "marketSize": "$180B" },
+    { "name": "Cloud Computing", "growth": 22, "marketSize": "$600B" },
+    { "name": "Data Science", "growth": 18, "marketSize": "$120B" },
+    { "name": "DevOps", "growth": 20, "marketSize": "$15B" },
+    { "name": "Web Development", "growth": 12, "marketSize": "$80B" }
+  ],
+  "remoteWorkTrends": [
+    { "year": "2020", "remote": 12, "hybrid": 8, "onsite": 80 },
+    { "year": "2021", "remote": 35, "hybrid": 20, "onsite": 45 },
+    { "year": "2022", "remote": 42, "hybrid": 30, "onsite": 28 },
+    { "year": "2023", "remote": 38, "hybrid": 38, "onsite": 24 },
+    { "year": "2024", "remote": 35, "hybrid": 45, "onsite": 20 }
+  ],
+  "futureJobOutlook": [
+    { "year": "2025", "techJobs": 52.1, "newRoles": 2.8 },
+    { "year": "2026", "techJobs": 55.3, "newRoles": 3.2 },
+    { "year": "2027", "techJobs": 58.9, "newRoles": 3.6 },
+    { "year": "2028", "techJobs": 62.8, "newRoles": 3.9 },
+    { "year": "2029", "techJobs": 67.2, "newRoles": 4.4 },
+    { "year": "2030", "techJobs": 72.0, "newRoles": 4.8 }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "roadmaps": [
+    {
+      "id": "frontend-developer",
+      "title": "Frontend Developer",
+      "description": "Build beautiful, interactive web experiences. From HTML basics to advanced React patterns.",
+      "totalTime": "6-12 months",
+      "totalHours": 800,
+      "stages": [
+        {
+          "name": "Foundations",
+          "duration": "1-2 months",
+          "items": [
+            "HTML5 Semantic Elements",
+            "CSS3 & Flexbox",
+            "CSS Grid Layout",
+            "Responsive Design Principles",
+            "Basic JavaScript (ES6+)",
+            "DOM Manipulation",
+            "Git & GitHub Basics"
+          ]
+        },
+        {
+          "name": "Core Frontend",
+          "duration": "2-3 months",
+          "items": [
+            "Advanced JavaScript",
+            "TypeScript Fundamentals",
+            "React.js Basics",
+            "React Hooks & State",
+            "Component Architecture",
+            "CSS Frameworks (Tailwind, Bootstrap)",
+            "Package Managers (npm, yarn)"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "duration": "2-3 months",
+          "items": [
+            "State Management (Redux/Zustand)",
+            "React Router & Navigation",
+            "API Integration (REST, GraphQL)",
+            "Testing (Jest, React Testing Library)",
+            "Performance Optimization",
+            "Build Tools (Vite, Webpack)",
+            "Design Systems"
+          ]
+        },
+        {
+          "name": "Professional",
+          "duration": "1-2 months",
+          "items": [
+            "Accessibility (WCAG)",
+            "Progressive Web Apps",
+            "CI/CD for Frontend",
+            "Monitoring & Analytics",
+            "Portfolio Building",
+            "Open Source Contributions",
+            "Technical Interview Prep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backend-developer",
+      "title": "Backend Developer",
+      "description": "Build the engine behind applications. APIs, databases, and server architecture.",
+      "totalTime": "6-12 months",
+      "totalHours": 900,
+      "stages": [
+        {
+          "name": "Foundations",
+          "duration": "1-2 months",
+          "items": [
+            "Programming Fundamentals (Python/Node.js)",
+            "Data Structures & Algorithms",
+            "HTTP Protocol & APIs",
+            "JSON & XML",
+            "Basic Linux & CLI",
+            "Git Version Control",
+            "IDE & Development Tools"
+          ]
+        },
+        {
+          "name": "Core Backend",
+          "duration": "2-3 months",
+          "items": [
+            "Web Frameworks (Express/Django/FastAPI)",
+            "REST API Design",
+            "Authentication & Authorization",
+            "SQL Fundamentals",
+            "NoSQL Databases",
+            "ORM & Database Design",
+            "Error Handling & Logging"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "duration": "2-3 months",
+          "items": [
+            "System Design Basics",
+            "Microservices Architecture",
+            "Message Queues (RabbitMQ, Kafka)",
+            "Caching Strategies (Redis)",
+            "API Documentation (Swagger/OpenAPI)",
+            "Testing (Unit, Integration, E2E)",
+            "Security Best Practices"
+          ]
+        },
+        {
+          "name": "Professional",
+          "duration": "1-2 months",
+          "items": [
+            "Cloud Deployment (AWS/GCP)",
+            "Docker & Containerization",
+            "CI/CD Pipelines",
+            "Monitoring & Observability",
+            "Load Balancing & Scaling",
+            "Database Optimization",
+            "System Design Interviews"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "full-stack-developer",
+      "title": "Full Stack Developer",
+      "description": "Master both frontend and backend. Build complete applications from end to end.",
+      "totalTime": "8-14 months",
+      "totalHours": 1200,
+      "stages": [
+        {
+          "name": "Foundations",
+          "duration": "2-3 months",
+          "items": [
+            "HTML, CSS, JavaScript",
+            "Programming Fundamentals",
+            "Git & GitHub",
+            "Command Line Basics",
+            "HTTP & Web Basics",
+            "Databases Basics",
+            "Development Environment Setup"
+          ]
+        },
+        {
+          "name": "Frontend Core",
+          "duration": "2 months",
+          "items": [
+            "React/Vue/Angular",
+            "TypeScript",
+            "State Management",
+            "Responsive Design",
+            "API Integration",
+            "Component Libraries",
+            "Frontend Testing"
+          ]
+        },
+        {
+          "name": "Backend Core",
+          "duration": "2 months",
+          "items": [
+            "Node.js/Python/Java",
+            "Express/Django/Spring",
+            "REST & GraphQL APIs",
+            "Authentication (JWT, OAuth)",
+            "SQL & NoSQL",
+            "ORM Tools",
+            "API Testing"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "duration": "2-3 months",
+          "items": [
+            "Full Stack Architecture",
+            "Docker & Deployment",
+            "CI/CD",
+            "Cloud Services",
+            "Microservices",
+            "Performance Optimization",
+            "Security & Auth"
+          ]
+        },
+        {
+          "name": "Professional",
+          "duration": "1-2 months",
+          "items": [
+            "System Design",
+            "Portfolio Projects",
+            "Open Source",
+            "Technical Writing",
+            "Interview Prep",
+            "Soft Skills",
+            "Continuous Learning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-engineer",
+      "title": "AI Engineer",
+      "description": "Build intelligent systems. From Python to deep learning and neural networks.",
+      "totalTime": "10-16 months",
+      "totalHours": 1400,
+      "stages": [
+        {
+          "name": "Mathematics",
+          "duration": "2-3 months",
+          "items": [
+            "Linear Algebra",
+            "Calculus",
+            "Probability & Statistics",
+            "Discrete Mathematics",
+            "Optimization Theory",
+            "Information Theory",
+            "Python for Math"
+          ]
+        },
+        {
+          "name": "Programming",
+          "duration": "2 months",
+          "items": [
+            "Python Advanced",
+            "NumPy & Pandas",
+            "Data Visualization",
+            "Jupyter Notebooks",
+            "Git for Data Science",
+            "Cloud Basics",
+            "Linux & CLI"
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "3-4 months",
+          "items": [
+            "ML Fundamentals",
+            "Scikit-Learn",
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Feature Engineering",
+            "Model Evaluation",
+            "ML Pipelines"
+          ]
+        },
+        {
+          "name": "Deep Learning",
+          "duration": "3-4 months",
+          "items": [
+            "Neural Networks",
+            "TensorFlow/PyTorch",
+            "CNNs",
+            "RNNs & LSTMs",
+            "Transformers",
+            "Transfer Learning",
+            "Model Deployment"
+          ]
+        },
+        {
+          "name": "Specialization",
+          "duration": "1-2 months",
+          "items": [
+            "NLP with LLMs",
+            "Computer Vision",
+            "Reinforcement Learning",
+            "MLOps",
+            "Ethical AI",
+            "Research Papers",
+            "Portfolio Projects"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "machine-learning-engineer",
+      "title": "Machine Learning Engineer",
+      "description": "Deploy and scale ML systems. Bridge the gap between research and production.",
+      "totalTime": "10-14 months",
+      "totalHours": 1300,
+      "stages": [
+        {
+          "name": "Foundations",
+          "duration": "2-3 months",
+          "items": [
+            "Python & Data Structures",
+            "Linear Algebra & Statistics",
+            "NumPy, Pandas, Matplotlib",
+            "SQL for Data",
+            "Git & Version Control",
+            "Cloud Fundamentals",
+            "Linux Basics"
+          ]
+        },
+        {
+          "name": "ML Core",
+          "duration": "3 months",
+          "items": [
+            "Scikit-Learn",
+            "Feature Engineering",
+            "Model Selection",
+            "Cross Validation",
+            "Hyperparameter Tuning",
+            "Ensemble Methods",
+            "ML Theory"
+          ]
+        },
+        {
+          "name": "Deep Learning",
+          "duration": "2-3 months",
+          "items": [
+            "TensorFlow/PyTorch",
+            "Neural Networks",
+            "CNNs & RNNs",
+            "Transformers",
+            "Transfer Learning",
+            "Model Optimization",
+            "Experiment Tracking"
+          ]
+        },
+        {
+          "name": "MLOps",
+          "duration": "2-3 months",
+          "items": [
+            "Docker & Kubernetes",
+            "CI/CD for ML",
+            "Model Serving",
+            "Feature Stores",
+            "Model Monitoring",
+            "A/B Testing",
+            "Data Validation"
+          ]
+        },
+        {
+          "name": "Production",
+          "duration": "1-2 months",
+          "items": [
+            "Cloud ML Services",
+            "Scalable Pipelines",
+            "Cost Optimization",
+            "Security & Compliance",
+            "Portfolio Projects",
+            "Technical Writing",
+            "Interview Prep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "description": "Transform data into insights. Statistical analysis, modeling, and business intelligence.",
+      "totalTime": "8-14 months",
+      "totalHours": 1100,
+      "stages": [
+        {
+          "name": "Statistics",
+          "duration": "2-3 months",
+          "items": [
+            "Descriptive Statistics",
+            "Probability Theory",
+            "Hypothesis Testing",
+            "Regression Analysis",
+            "Bayesian Statistics",
+            "Experimental Design",
+            "Statistical Software"
+          ]
+        },
+        {
+          "name": "Programming",
+          "duration": "2 months",
+          "items": [
+            "Python for Data",
+            "R Programming",
+            "SQL Advanced",
+            "Pandas & NumPy",
+            "Data Cleaning",
+            "Jupyter Notebooks",
+            "Git & Collaboration"
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "duration": "2-3 months",
+          "items": [
+            "Scikit-Learn",
+            "Classification & Regression",
+            "Clustering",
+            "Dimensionality Reduction",
+            "Time Series Analysis",
+            "Model Evaluation",
+            "Feature Engineering"
+          ]
+        },
+        {
+          "name": "Visualization",
+          "duration": "1-2 months",
+          "items": [
+            "Matplotlib & Seaborn",
+            "Plotly & Dash",
+            "Tableau",
+            "Power BI",
+            "Storytelling with Data",
+            "Dashboard Design",
+            "Interactive Reports"
+          ]
+        },
+        {
+          "name": "Business",
+          "duration": "1-2 months",
+          "items": [
+            "Business Metrics",
+            "A/B Testing",
+            "Product Analytics",
+            "Communication Skills",
+            "Portfolio Building",
+            "Kaggle Competitions",
+            "Case Studies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cyber-security-engineer",
+      "title": "Cyber Security Engineer",
+      "description": "Defend digital infrastructure. Network security, ethical hacking, and threat response.",
+      "totalTime": "8-14 months",
+      "totalHours": 1000,
+      "stages": [
+        {
+          "name": "IT Foundations",
+          "duration": "2 months",
+          "items": [
+            "Computer Networking",
+            "TCP/IP & OSI Model",
+            "Linux Fundamentals",
+            "Windows Server Basics",
+            "Command Line",
+            "Virtualization",
+            "Basic Scripting"
+          ]
+        },
+        {
+          "name": "Security Core",
+          "duration": "2-3 months",
+          "items": [
+            "Network Security",
+            "Firewalls & IDS/IPS",
+            "Cryptography",
+            "Authentication & Access",
+            "Vulnerability Management",
+            "Security Policies",
+            "Compliance & Regulations"
+          ]
+        },
+        {
+          "name": "Offensive Security",
+          "duration": "2-3 months",
+          "items": [
+            "Ethical Hacking",
+            "Penetration Testing",
+            "Web App Security",
+            "Social Engineering",
+            "Wireless Security",
+            "Exploit Development",
+            "CTF Competitions"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "duration": "2-3 months",
+          "items": [
+            "Incident Response",
+            "Digital Forensics",
+            "Malware Analysis",
+            "Cloud Security",
+            "SIEM Tools",
+            "Threat Intelligence",
+            "Red Team Operations"
+          ]
+        },
+        {
+          "name": "Certification",
+          "duration": "1-2 months",
+          "items": [
+            "CompTIA Security+",
+            "CEH",
+            "CISSP Prep",
+            "Portfolio Building",
+            "Bug Bounty",
+            "Home Lab Setup",
+            "Interview Prep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud-engineer",
+      "title": "Cloud Engineer",
+      "description": "Architect cloud infrastructure. AWS, Azure, and modern deployment strategies.",
+      "totalTime": "6-12 months",
+      "totalHours": 900,
+      "stages": [
+        {
+          "name": "Foundations",
+          "duration": "1-2 months",
+          "items": [
+            "Networking Basics",
+            "Linux Fundamentals",
+            "Virtualization",
+            "IP Addressing",
+            "DNS & DHCP",
+            "Basic Security",
+            "Scripting (Python/Bash)"
+          ]
+        },
+        {
+          "name": "Cloud Core",
+          "duration": "2-3 months",
+          "items": [
+            "AWS/Azure/GCP Basics",
+            "Compute Services",
+            "Storage Services",
+            "Networking in Cloud",
+            "IAM & Security",
+            "Cloud Databases",
+            "Cost Management"
+          ]
+        },
+        {
+          "name": "Infrastructure",
+          "duration": "2-3 months",
+          "items": [
+            "Infrastructure as Code",
+            "Terraform",
+            "CloudFormation",
+            "Ansible",
+            "Configuration Management",
+            "Auto Scaling",
+            "Load Balancing"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "duration": "1-2 months",
+          "items": [
+            "Containerization (Docker)",
+            "Kubernetes",
+            "Serverless",
+            "CI/CD in Cloud",
+            "Monitoring & Logging",
+            "Disaster Recovery",
+            "Multi-Cloud"
+          ]
+        },
+        {
+          "name": "Certification",
+          "duration": "1-2 months",
+          "items": [
+            "AWS Solutions Architect",
+            "Azure Solutions Architect",
+            "Google Cloud Architect",
+            "CKA",
+            "Portfolio Projects",
+            "Home Lab",
+            "Interview Prep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ui-ux-designer",
+      "title": "UI/UX Designer",
+      "description": "Design digital experiences. From research to polished interfaces and prototypes.",
+      "totalTime": "6-12 months",
+      "totalHours": 700,
+      "stages": [
+        {
+          "name": "Foundations",
+          "duration": "1-2 months",
+          "items": [
+            "Design Principles",
+            "Color Theory",
+            "Typography",
+            "Layout & Composition",
+            "Visual Hierarchy",
+            "Design Tools (Figma)",
+            "Basic HTML/CSS"
+          ]
+        },
+        {
+          "name": "UX Research",
+          "duration": "1-2 months",
+          "items": [
+            "User Research Methods",
+            "Personas & Scenarios",
+            "User Journey Mapping",
+            "Information Architecture",
+            "Wireframing",
+            "Usability Testing",
+            "Analytics & Data"
+          ]
+        },
+        {
+          "name": "UI Design",
+          "duration": "2 months",
+          "items": [
+            "Interface Design",
+            "Design Systems",
+            "Component Libraries",
+            "Prototyping",
+            "Micro-interactions",
+            "Responsive Design",
+            "Accessibility (WCAG)"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "duration": "1-2 months",
+          "items": [
+            "Design Strategy",
+            "Design Ops",
+            "Cross-functional Collaboration",
+            "Design Handoff",
+            "Portfolio Building",
+            "Design Critique",
+            "Interview Prep"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "description": "Automate and optimize. CI/CD, infrastructure, and operational excellence.",
+      "totalTime": "8-14 months",
+      "totalHours": 1000,
+      "stages": [
+        {
+          "name": "Foundations",
+          "duration": "2 months",
+          "items": [
+            "Linux Fundamentals",
+            "Shell Scripting",
+            "Networking Basics",
+            "Version Control (Git)",
+            "Basic Programming",
+            "Virtualization",
+            "Containers Basics"
+          ]
+        },
+        {
+          "name": "Core DevOps",
+          "duration": "2-3 months",
+          "items": [
+            "Docker Deep Dive",
+            "Kubernetes Basics",
+            "CI/CD Concepts",
+            "Jenkins/GitLab CI",
+            "GitHub Actions",
+            "Configuration Management",
+            "Infrastructure as Code"
+          ]
+        },
+        {
+          "name": "Cloud & Infra",
+          "duration": "2-3 months",
+          "items": [
+            "AWS/Azure/GCP",
+            "Terraform",
+            "Cloud Networking",
+            "Security in DevOps",
+            "Monitoring & Alerting",
+            "Logging & Tracing",
+            "Cost Optimization"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "duration": "2 months",
+          "items": [
+            "GitOps",
+            "Service Mesh",
+            "Chaos Engineering",
+            "SRE Practices",
+            "Performance Tuning",
+            "Disaster Recovery",
+            "Compliance"
+          ]
+        },
+        {
+          "name": "Professional",
+          "duration": "1-2 months",
+          "items": [
+            "Portfolio Projects",
+            "Home Lab Setup",
+            "Open Source Contributions",
+            "Technical Writing",
+            "Certifications",
+            "Interview Prep",
+            "Soft Skills"
+          ]
+        }
+      ]
+    }
+  ]
+}

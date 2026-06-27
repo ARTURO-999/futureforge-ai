@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "When working on a project, what excites you most?",
+      "options": [
+        { "text": "Designing beautiful interfaces and user experiences", "scores": { "ui-ux-designer": 3, "frontend-developer": 2 } },
+        { "text": "Building systems that handle millions of requests", "scores": { "backend-developer": 3, "devops-engineer": 2 } },
+        { "text": "Teaching computers to learn and make decisions", "scores": { "ai-engineer": 3, "machine-learning-engineer": 2 } },
+        { "text": "Protecting systems and finding vulnerabilities", "scores": { "cyber-security-engineer": 3, "cloud-engineer": 1 } }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which type of problem do you enjoy solving most?",
+      "options": [
+        { "text": "Visual and layout challenges", "scores": { "frontend-developer": 3, "ui-ux-designer": 2 } },
+        { "text": "Logical and data flow problems", "scores": { "backend-developer": 3, "data-scientist": 2 } },
+        { "text": "Mathematical and statistical puzzles", "scores": { "data-scientist": 3, "machine-learning-engineer": 2 } },
+        { "text": "Infrastructure and scaling challenges", "scores": { "cloud-engineer": 3, "devops-engineer": 2 } }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How do you feel about mathematics?",
+      "options": [
+        { "text": "I love advanced math and enjoy complex calculations", "scores": { "ai-engineer": 3, "machine-learning-engineer": 2, "data-scientist": 2 } },
+        { "text": "I can handle basic math and statistics when needed", "scores": { "backend-developer": 2, "data-scientist": 1 } },
+        { "text": "I prefer logic and problem-solving over equations", "scores": { "frontend-developer": 2, "cyber-security-engineer": 2, "devops-engineer": 2 } },
+        { "text": "I focus on creativity and visual thinking", "scores": { "ui-ux-designer": 3, "frontend-developer": 1 } }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is your preferred work environment?",
+      "options": [
+        { "text": "Fully remote, anywhere in the world", "scores": { "frontend-developer": 2, "ui-ux-designer": 2, "full-stack-developer": 2 } },
+        { "text": "Hybrid with some team collaboration", "scores": { "backend-developer": 2, "data-scientist": 2, "devops-engineer": 2 } },
+        { "text": "In-person with immediate feedback", "scores": { "ui-ux-designer": 1, "frontend-developer": 1 } },
+        { "text": "Flexible, depending on project needs", "scores": { "cloud-engineer": 2, "cyber-security-engineer": 2, "machine-learning-engineer": 2 } }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which industry interests you most?",
+      "options": [
+        { "text": "Cutting-edge tech and AI startups", "scores": { "ai-engineer": 3, "machine-learning-engineer": 2 } },
+        { "text": "Finance and enterprise systems", "scores": { "backend-developer": 2, "data-scientist": 2, "cyber-security-engineer": 2 } },
+        { "text": "Creative agencies and product companies", "scores": { "ui-ux-designer": 3, "frontend-developer": 2 } },
+        { "text": "Cloud infrastructure and DevOps", "scores": { "cloud-engineer": 3, "devops-engineer": 3 } }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "How do you approach learning new technology?",
+      "options": [
+        { "text": "I dive deep and master the fundamentals first", "scores": { "backend-developer": 2, "ai-engineer": 2, "data-scientist": 2 } },
+        { "text": "I build projects and learn by doing", "scores": { "frontend-developer": 2, "full-stack-developer": 2, "ui-ux-designer": 2 } },
+        { "text": "I follow structured courses and certifications", "scores": { "cloud-engineer": 2, "cyber-security-engineer": 2, "devops-engineer": 2 } },
+        { "text": "I read research papers and explore theory", "scores": { "ai-engineer": 3, "machine-learning-engineer": 3, "data-scientist": 3 } }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is your ideal salary expectation?",
+      "options": [
+        { "text": "$70,000 - $100,000", "scores": { "ui-ux-designer": 2, "frontend-developer": 1 } },
+        { "text": "$100,000 - $150,000", "scores": { "frontend-developer": 2, "backend-developer": 2, "data-scientist": 2 } },
+        { "text": "$150,000 - $200,000", "scores": { "backend-developer": 2, "full-stack-developer": 2, "cloud-engineer": 2, "devops-engineer": 2 } },
+        { "text": "$200,000+", "scores": { "ai-engineer": 3, "machine-learning-engineer": 3, "cyber-security-engineer": 2 } }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "How do you handle stress and tight deadlines?",
+      "options": [
+        { "text": "I thrive under pressure and love rapid iteration", "scores": { "frontend-developer": 2, "ui-ux-designer": 2, "devops-engineer": 2 } },
+        { "text": "I prefer methodical, planned approaches", "scores": { "backend-developer": 2, "data-scientist": 2, "ai-engineer": 2 } },
+        { "text": "I adapt based on the situation", "scores": { "full-stack-developer": 2, "cloud-engineer": 2, "cyber-security-engineer": 2 } },
+        { "text": "I need structure and clear expectations", "scores": { "machine-learning-engineer": 2, "backend-developer": 1 } }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which tool or concept intrigues you most?",
+      "options": [
+        { "text": "Neural networks and deep learning", "scores": { "ai-engineer": 3, "machine-learning-engineer": 2 } },
+        { "text": "Cloud infrastructure and containers", "scores": { "cloud-engineer": 3, "devops-engineer": 2 } },
+        { "text": "Beautiful UI components and animations", "scores": { "frontend-developer": 3, "ui-ux-designer": 2 } },
+        { "text": "Security protocols and penetration testing", "scores": { "cyber-security-engineer": 3, "backend-developer": 1 } }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What would you like to be known for in your career?",
+      "options": [
+        { "text": "Building products that people love to use", "scores": { "frontend-developer": 2, "ui-ux-designer": 3, "full-stack-developer": 2 } },
+        { "text": "Architecting robust and scalable systems", "scores": { "backend-developer": 3, "cloud-engineer": 2, "devops-engineer": 2 } },
+        { "text": "Advancing the state of AI and intelligence", "scores": { "ai-engineer": 3, "machine-learning-engineer": 2, "data-scientist": 1 } },
+        { "text": "Protecting the digital world from threats", "scores": { "cyber-security-engineer": 3, "cloud-engineer": 1 } }
+      ]
+    }
+  ]
+}

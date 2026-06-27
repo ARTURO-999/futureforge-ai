@@ -1,0 +1,388 @@
+{
+  "books": [
+    {
+      "id": "clean-code",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Software Engineering",
+      "description": "A handbook of agile software craftsmanship. Essential for any developer who wants to write maintainable code.",
+      "difficulty": "Intermediate",
+      "rating": 4.8,
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "design-patterns",
+      "title": "Design Patterns",
+      "author": "Gang of Four",
+      "category": "Software Engineering",
+      "description": "The classic guide to object-oriented design patterns. A must-read for senior developers.",
+      "difficulty": "Advanced",
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "cracking-coding",
+      "title": "Cracking the Coding Interview",
+      "author": "Gayle Laakmann McDowell",
+      "category": "Interview Prep",
+      "description": "The definitive guide to technical interviews at top tech companies. 189 programming questions and solutions.",
+      "difficulty": "Intermediate",
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "deep-learning",
+      "title": "Hands-On Machine Learning",
+      "author": "Aurelien Geron",
+      "category": "AI/ML",
+      "description": "The practical guide to building intelligent systems with Scikit-Learn, Keras, and TensorFlow.",
+      "difficulty": "Advanced",
+      "rating": 4.9,
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "system-design",
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "category": "System Design",
+      "description": "The big ideas behind reliable, scalable, and maintainable systems. Essential for backend and infrastructure roles.",
+      "difficulty": "Advanced",
+      "rating": 4.9,
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "aws-certified",
+      "title": "AWS Certified Solutions Architect",
+      "author": "Ben Piper & David Clinton",
+      "category": "Cloud",
+      "description": "Study guide for the AWS Solutions Architect Associate exam. Comprehensive coverage of AWS services.",
+      "difficulty": "Intermediate",
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "courses": [
+    {
+      "id": "aws-cloud",
+      "title": "AWS Cloud Practitioner",
+      "platform": "Coursera / A Cloud Guru",
+      "category": "Cloud",
+      "description": "Learn AWS fundamentals and prepare for the Cloud Practitioner certification. Perfect for beginners in cloud computing.",
+      "duration": "40 hours",
+      "difficulty": "Beginner",
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "meta-frontend",
+      "title": "Meta Frontend Developer Professional",
+      "platform": "Coursera",
+      "category": "Frontend",
+      "description": "Learn React, advanced CSS, and frontend best practices from Meta engineers. Includes portfolio projects.",
+      "duration": "180 hours",
+      "difficulty": "Intermediate",
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "deep-learning-specialization",
+      "title": "Deep Learning Specialization",
+      "platform": "Coursera",
+      "category": "AI/ML",
+      "description": "Master deep learning with Andrew Ng. Covers neural networks, CNNs, RNNs, and transformer models.",
+      "duration": "120 hours",
+      "difficulty": "Advanced",
+      "rating": 4.8,
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "google-ux",
+      "title": "Google UX Design Certificate",
+      "platform": "Coursera",
+      "category": "Design",
+      "description": "Learn UX design from Google. Create wireframes, prototypes, and conduct user research. No experience required.",
+      "duration": "200 hours",
+      "difficulty": "Beginner",
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "cybersecurity",
+      "title": "CompTIA Security+",
+      "platform": "Udemy / Cybrary",
+      "category": "Security",
+      "description": "Prepare for the Security+ certification. Covers network security, threats, vulnerabilities, and identity management.",
+      "duration": "60 hours",
+      "difficulty": "Intermediate",
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "nodejs-complete",
+      "title": "Node.js, Express, MongoDB",
+      "platform": "Udemy",
+      "category": "Backend",
+      "description": "Complete Node.js course building real-world applications. Covers REST APIs, authentication, and deployment.",
+      "duration": "80 hours",
+      "difficulty": "Intermediate",
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "youtube": [
+    {
+      "id": "traversy",
+      "title": "Traversy Media",
+      "channel": "Brad Traversy",
+      "category": "Web Development",
+      "description": "Practical web development tutorials covering React, Node.js, CSS, and modern frameworks.",
+      "subscribers": "2.1M",
+      "rating": 4.8
+    },
+    {
+      "id": "fireship",
+      "title": "Fireship",
+      "channel": "Jeff Delaney",
+      "category": "Web Development",
+      "description": "Fast-paced, high-quality tutorials. 100-second explainers and in-depth courses on modern technologies.",
+      "subscribers": "2.5M",
+      "rating": 4.9
+    },
+    {
+      "id": "freecodecamp",
+      "title": "freeCodeCamp",
+      "channel": "freeCodeCamp",
+      "category": "Programming",
+      "description": "Comprehensive full-length courses on virtually every programming topic. Completely free and high quality.",
+      "subscribers": "8.2M",
+      "rating": 4.7
+    },
+    {
+      "id": "techworld",
+      "title": "TechWorld with Nana",
+      "channel": "Nana",
+      "category": "DevOps",
+      "description": "DevOps, Docker, Kubernetes, and cloud explained visually. Perfect for beginners in infrastructure.",
+      "subscribers": "1.2M",
+      "rating": 4.8
+    },
+    {
+      "id": "sentdex",
+      "title": "sentdex",
+      "channel": "Harrison Kinsley",
+      "category": "AI/ML",
+      "description": "Python and machine learning tutorials. Practical projects using TensorFlow, PyTorch, and OpenAI APIs.",
+      "subscribers": "1.1M",
+      "rating": 4.6
+    },
+    {
+      "id": "networkchuck",
+      "title": "NetworkChuck",
+      "channel": "Chuck Keith",
+      "category": "Networking / Security",
+      "description": "Cybersecurity, networking, and cloud tutorials explained in an entertaining and beginner-friendly way.",
+      "subscribers": "3.5M",
+      "rating": 4.7
+    }
+  ],
+  "certifications": [
+    {
+      "id": "aws-saa",
+      "title": "AWS Solutions Architect Associate",
+      "provider": "Amazon Web Services",
+      "category": "Cloud",
+      "description": "Validates expertise in designing distributed systems on AWS. The most popular cloud certification.",
+      "difficulty": "Intermediate",
+      "rating": 4.8,
+      "cost": "$150"
+    },
+    {
+      "id": "cissp",
+      "title": "CISSP",
+      "provider": "ISC2",
+      "category": "Security",
+      "description": "The gold standard for cybersecurity professionals. Covers security and risk management, asset security, and more.",
+      "difficulty": "Advanced",
+      "rating": 4.9,
+      "cost": "$749"
+    },
+    {
+      "id": "pmp",
+      "title": "PMP",
+      "provider": "PMI",
+      "category": "Project Management",
+      "description": "Project Management Professional certification. Recognized globally and valued across all industries.",
+      "difficulty": "Advanced",
+      "rating": 4.5,
+      "cost": "$555"
+    },
+    {
+      "id": "ccna",
+      "title": "CCNA",
+      "provider": "Cisco",
+      "category": "Networking",
+      "description": "Cisco Certified Network Associate. Validates skills in networking fundamentals, IP connectivity, and security.",
+      "difficulty": "Intermediate",
+      "rating": 4.6,
+      "cost": "$300"
+    },
+    {
+      "id": "google-cloud-pro",
+      "title": "Google Cloud Professional Architect",
+      "provider": "Google",
+      "category": "Cloud",
+      "description": "Demonstrates ability to design, develop, and manage robust, secure, and scalable solutions on GCP.",
+      "difficulty": "Advanced",
+      "rating": 4.7,
+      "cost": "$200"
+    },
+    {
+      "id": "comptia-security",
+      "title": "CompTIA Security+",
+      "provider": "CompTIA",
+      "category": "Security",
+      "description": "The best entry-level cybersecurity certification. Covers network security, compliance, and identity management.",
+      "difficulty": "Beginner",
+      "rating": 4.6,
+      "cost": "$392"
+    }
+  ],
+  "practice": [
+    {
+      "id": "leetcode",
+      "title": "LeetCode",
+      "category": "Coding Interview",
+      "description": "The most popular platform for coding interview preparation. 3,000+ problems with solutions and discussions.",
+      "rating": 4.7,
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": "hackerrank",
+      "title": "HackerRank",
+      "category": "Coding Interview",
+      "description": "Practice coding, algorithms, and data structures. Used by companies for hiring assessments.",
+      "rating": 4.5,
+      "url": "https://hackerrank.com"
+    },
+    {
+      "id": "codecademy",
+      "title": "Codecademy",
+      "category": "Learning",
+      "description": "Interactive platform for learning to code. Tracks progress and provides hands-on projects.",
+      "rating": 4.6,
+      "url": "https://codecademy.com"
+    },
+    {
+      "id": "kaggle",
+      "title": "Kaggle",
+      "category": "Data Science",
+      "description": "Data science competitions, datasets, and notebooks. Learn ML by doing real-world projects.",
+      "rating": 4.8,
+      "url": "https://kaggle.com"
+    },
+    {
+      "id": "exercism",
+      "title": "Exercism",
+      "category": "Learning",
+      "description": "Free coding practice with mentorship. 60+ programming languages and a supportive community.",
+      "rating": 4.7,
+      "url": "https://exercism.org"
+    },
+    {
+      "id": "tryhackme",
+      "title": "TryHackMe",
+      "category": "Security",
+      "description": "Gamified cybersecurity training. Learn hacking, networking, and defensive skills through hands-on labs.",
+      "rating": 4.8,
+      "url": "https://tryhackme.com"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "devto",
+      "title": "Dev.to",
+      "category": "Community",
+      "description": "A constructive and inclusive social network for software developers. Share and learn from the community.",
+      "url": "https://dev.to"
+    },
+    {
+      "id": "medium",
+      "title": "Medium - Better Programming",
+      "category": "Programming",
+      "description": "Curated programming articles from top developers. Deep dives on technologies, architecture, and career advice.",
+      "url": "https://medium.com"
+    },
+    {
+      "id": "css-tricks",
+      "title": "CSS-Tricks",
+      "category": "Frontend",
+      "description": "The ultimate resource for frontend developers. Articles, guides, and references on CSS, HTML, and JavaScript.",
+      "url": "https://css-tricks.com"
+    },
+    {
+      "id": "aws-blog",
+      "title": "AWS News Blog",
+      "category": "Cloud",
+      "description": "Official AWS blog with announcements, tutorials, and best practices. Stay updated on cloud services.",
+      "url": "https://aws.amazon.com/blogs"
+    },
+    {
+      "id": "towards-ds",
+      "title": "Towards Data Science",
+      "category": "Data Science",
+      "description": "Medium publication for data science, ML, and AI content. Tutorials, research summaries, and career insights.",
+      "url": "https://towardsdatascience.com"
+    },
+    {
+      "id": "hackernews",
+      "title": "Hacker News",
+      "category": "Tech News",
+      "description": "Curated tech news and discussions. Stay informed on industry trends, startups, and emerging technologies.",
+      "url": "https://news.ycombinator.com"
+    }
+  ],
+  "documentation": [
+    {
+      "id": "react-docs",
+      "title": "React Documentation",
+      "category": "Frontend",
+      "description": "Official React documentation with interactive examples and comprehensive API references.",
+      "url": "https://react.dev"
+    },
+    {
+      "id": "mdn",
+      "title": "MDN Web Docs",
+      "category": "Web Platform",
+      "description": "The definitive reference for HTML, CSS, JavaScript, and Web APIs. Maintained by Mozilla.",
+      "url": "https://developer.mozilla.org"
+    },
+    {
+      "id": "aws-docs",
+      "title": "AWS Documentation",
+      "category": "Cloud",
+      "description": "Comprehensive documentation for all AWS services. Includes tutorials, API references, and architecture guides.",
+      "url": "https://docs.aws.amazon.com"
+    },
+    {
+      "id": "python-docs",
+      "title": "Python Documentation",
+      "category": "Programming",
+      "description": "Official Python documentation. Covers language reference, library reference, and how-to guides.",
+      "url": "https://docs.python.org"
+    },
+    {
+      "id": "docker-docs",
+      "title": "Docker Documentation",
+      "category": "DevOps",
+      "description": "Official Docker documentation for building, sharing, and running containerized applications.",
+      "url": "https://docs.docker.com"
+    },
+    {
+      "id": "kubernetes-docs",
+      "title": "Kubernetes Documentation",
+      "category": "DevOps",
+      "description": "Official Kubernetes documentation. Concepts, tasks, tutorials, and API references.",
+      "url": "https://kubernetes.io/docs"
+    }
+  ]
+}
