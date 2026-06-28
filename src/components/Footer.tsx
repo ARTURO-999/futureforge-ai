@@ -18,18 +18,23 @@ export function Footer() {
             </p>
             <div className="flex gap-2">
               {[
-                { Icon: Github, label: 'GitHub' },
-                { Icon: Twitter, label: 'Twitter' },
-                { Icon: Linkedin, label: 'LinkedIn' },
-                { Icon: Mail, label: 'Email' },
-              ].map(({ Icon, label }) => (
+                { Icon: Github, href: 'https://github.com/ARTURO-999', label: 'GitHub' },
+                { Icon: Twitter, href: 'https://x.com/FarhanSheikh999', label: 'X' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/farhan-sheikh-749649377?utm_source=share_via&utm_content=profile&utm_medium=member_ios', label: 'LinkedIn' },
+                { Icon: Mail, href: 'mailto:farhansheikh007yt@gmail.com', label: 'Email' },
+              ].map(({ Icon, href, label }) => (
                 <a
                   key={label}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={label}
-                  className="p-2.5 rounded-xl bg-gray-50 dark:bg-white/[0.04] text-muted hover:text-primary dark:hover:text-slate-300 hover:bg-gray-100 dark:hover:bg-white/[0.08] transition-all duration-200"
+                  className="relative group"
                 >
-                  <Icon size={18} strokeWidth={2} />
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary to-accent opacity-0 blur-[4px] group-hover:opacity-40 transition-opacity duration-300" />
+                  <div className="relative p-2.5 rounded-xl bg-gray-50 dark:bg-white/[0.04] text-muted hover:text-primary dark:hover:text-slate-300 hover:bg-gray-100 dark:hover:bg-white/[0.08] transition-all duration-300 hover:scale-110 hover:-translate-y-0.5">
+                    <Icon size={18} strokeWidth={2} />
+                  </div>
                 </a>
               ))}
             </div>
@@ -67,8 +72,7 @@ export function Footer() {
         <div className="border-t border-border dark:border-white/[0.06] mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-[13px] text-muted">2026 FutureForge. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="text-[13px] text-muted hover:text-primary dark:hover:text-slate-300 transition-colors duration-200">Privacy</a>
-            <a href="#" className="text-[13px] text-muted hover:text-primary dark:hover:text-slate-300 transition-colors duration-200">Terms</a>
+            <span className="text-[13px] text-muted">Built by Farhan Sheikh</span>
           </div>
         </div>
       </div>

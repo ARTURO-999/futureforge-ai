@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Target, Eye, Heart, Users, Rocket, Shield, BookOpen, FileText } from 'lucide-react';
+import { Target, Eye, Heart, Users, Rocket, Shield, Github, Linkedin, Mail, Twitter } from 'lucide-react';
 
 const values = [
   { icon: Target, title: 'Precision', desc: 'Data-driven insights for every career decision.' },
@@ -8,13 +8,6 @@ const values = [
   { icon: Users, title: 'Community', desc: 'Built with and for professionals worldwide.' },
   { icon: Rocket, title: 'Innovation', desc: 'Leveraging AI to deliver cutting-edge guidance.' },
   { icon: Shield, title: 'Integrity', desc: 'Transparent, accurate, and unbiased information.' },
-];
-
-const team = [
-  { name: 'Alex Rivera', role: 'Founder & CEO', bio: 'Former Google PM with a passion for democratizing career intelligence.' },
-  { name: 'Maya Singh', role: 'Head of AI', bio: 'PhD in Machine Learning from Stanford. Leading our AI research efforts.' },
-  { name: 'David Chen', role: 'CTO', bio: 'Ex-Netflix engineer. Architected platforms serving millions of users.' },
-  { name: 'Emma Watson', role: 'Head of Design', bio: 'Previously at Apple Design. Crafting beautiful, intuitive experiences.' },
 ];
 
 export function AboutPage() {
@@ -75,62 +68,55 @@ export function AboutPage() {
         </div>
       </div>
 
-      <div>
-        <h2 className="text-3xl font-bold text-dark dark:text-white text-center mb-10">Meet the Team</h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {team.map((member, i) => (
-            <motion.div
-              key={member.name}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="card p-6 text-center"
-            >
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-accent mx-auto mb-4 flex items-center justify-center text-white text-xl font-bold">
-                {member.name.split(' ').map((n) => n[0]).join('')}
-              </div>
-              <h3 className="font-semibold text-dark dark:text-white mb-0.5">{member.name}</h3>
-              <p className="text-sm text-primary mb-2">{member.role}</p>
-              <p className="text-sm text-muted">{member.bio}</p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="mt-20"
+        className="mb-20"
       >
-        <h2 className="text-3xl font-bold text-dark dark:text-white text-center mb-10">Knowledge Base</h2>
-        <div className="max-w-2xl mx-auto">
-          <div className="card p-8 text-center">
-            <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-              <BookOpen className="w-6 h-6 text-primary" />
-            </div>
-            <h3 className="text-xl font-bold text-dark dark:text-white mb-3">FutureForge AI Knowledge Base</h3>
-            <p className="text-sm text-muted leading-relaxed mb-6 max-w-md mx-auto">
-              A comprehensive reference document covering all careers, skills, market trends, roadmaps, resources, and 100+ FAQs. Available for download as PDF or Markdown.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a
-                href="/FutureForge-Knowledge-Base.pdf"
-                download
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-white font-medium text-sm hover:opacity-90 transition-opacity duration-200"
-              >
-                <FileText className="w-4 h-4" />
-                Download PDF
-              </a>
-              <a
-                href="/knowledge-base.md"
-                download="FutureForge-Knowledge-Base.md"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-border dark:border-white/[0.06] text-dark dark:text-white font-medium text-sm hover:bg-gray-50 dark:hover:bg-white/[0.04] transition-all duration-200"
-              >
-                <BookOpen className="w-4 h-4" />
-                Download Markdown
-              </a>
+        <h2 className="text-3xl font-bold text-dark dark:text-white text-center mb-10">Meet the Founder</h2>
+        <div className="max-w-lg mx-auto">
+          <div className="relative group">
+            <div className="absolute -inset-[1px] rounded-3xl bg-gradient-to-br from-primary via-accent to-primary opacity-30 blur-[1px] group-hover:opacity-60 transition-opacity duration-500" />
+            <div className="absolute -inset-[1px] rounded-3xl bg-gradient-to-br from-primary via-accent to-primary opacity-20 group-hover:opacity-50 transition-opacity duration-500" />
+            <div className="relative card p-8 text-center overflow-hidden bg-white/80 dark:bg-[#0B0F1A]/80 backdrop-blur-xl">
+              <div className="relative mx-auto mb-6">
+                <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-60 blur-[1px] group-hover:opacity-100 group-hover:blur-[2px] transition-all duration-500" />
+                <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-40 animate-pulse" />
+                <div className="relative w-28 h-28 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white text-3xl font-bold tracking-wider shadow-lg shadow-primary/20">
+                  FS
+                </div>
+                <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-green-500 border-2 border-white dark:border-[#0B0F1A] flex items-center justify-center shadow-md">
+                  <div className="w-2 h-2 rounded-full bg-white animate-pulse" />
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-dark dark:text-white mb-1">Farhan Sheikh</h3>
+              <p className="text-sm font-medium text-primary mb-4">Founder & Creator of FutureForge AI</p>
+              <p className="text-sm text-muted leading-relaxed mb-6">
+                Farhan Sheikh is the sole creator and developer of FutureForge AI. He designed and built the platform using modern AI-assisted development tools with a strong focus on helping students and professionals make smarter career decisions. His goal is to simplify career planning through intelligent roadmaps, skill analysis, AI-powered guidance, and an exceptional user experience. FutureForge AI reflects his passion for technology, innovation, and creating impactful digital products.
+              </p>
+              <div className="flex justify-center gap-3">
+                {[
+                  { Icon: Github, href: 'https://github.com/ARTURO-999', label: 'GitHub' },
+                  { Icon: Linkedin, href: 'https://www.linkedin.com/in/farhan-sheikh-749649377?utm_source=share_via&utm_content=profile&utm_medium=member_ios', label: 'LinkedIn' },
+                  { Icon: Twitter, href: 'https://x.com/FarhanSheikh999', label: 'X' },
+                  { Icon: Mail, href: 'mailto:farhansheikh007yt@gmail.com', label: 'Email' },
+                ].map(({ Icon, href, label }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={label}
+                    className="relative group/icon"
+                  >
+                    <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary to-accent opacity-0 blur-[4px] group-hover/icon:opacity-40 transition-opacity duration-300" />
+                    <div className="relative p-2.5 rounded-xl bg-gray-50 dark:bg-white/[0.04] text-muted hover:text-primary dark:hover:text-slate-300 hover:bg-gray-100 dark:hover:bg-white/[0.08] transition-all duration-300 hover:scale-110 hover:-translate-y-0.5">
+                      <Icon size={18} strokeWidth={2} />
+                    </div>
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </div>

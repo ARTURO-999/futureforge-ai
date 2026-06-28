@@ -10,19 +10,23 @@ export function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!formData.email.includes('@')) {
+      showToast('Please enter a valid email address.', 'error');
+      return;
+    }
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
       setFormData({ name: '', email: '', subject: '', message: '' });
-      showToast('Message sent successfully! We will get back to you soon.', 'success');
+      showToast('Message sent successfully! I will get back to you soon.', 'success');
     }, 1500);
   };
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-12">
-        <h1 className="text-4xl font-bold text-dark dark:text-white mb-3 tracking-tight">Contact Us</h1>
-        <p className="text-muted max-w-2xl text-[15px] leading-relaxed">Have a question or feedback? We would love to hear from you. Reach out and our team will respond promptly.</p>
+        <h1 className="text-4xl font-bold text-dark dark:text-white mb-3 tracking-tight">Contact Me</h1>
+        <p className="text-muted max-w-2xl text-[15px] leading-relaxed">Have a question or feedback? I would love to hear from you. Reach out and I will respond promptly.</p>
       </motion.div>
 
       <div className="grid lg:grid-cols-3 gap-5">
@@ -54,7 +58,7 @@ export function ContactPage() {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="input-field"
-                  placeholder="you@example.com"
+                  placeholder="your@email.com"
                 />
               </div>
             </div>
@@ -66,7 +70,7 @@ export function ContactPage() {
                 value={formData.subject}
                 onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                 className="input-field"
-                placeholder="How can we help?"
+                placeholder="How can I help?"
               />
             </div>
             <div className="mb-4">
@@ -77,7 +81,7 @@ export function ContactPage() {
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 className="input-field resize-none"
-                placeholder="Tell us more about your question..."
+                placeholder="Tell me more about your question..."
               />
             </div>
             <button
@@ -110,7 +114,7 @@ export function ContactPage() {
               <Mail className="w-5 h-5 text-primary" strokeWidth={2} />
             </div>
             <h3 className="font-semibold text-dark dark:text-white mb-1 text-[15px]">Email</h3>
-            <p className="text-[13px] text-muted">hello@futureforge.ai</p>
+            <p className="text-[13px] text-muted">farhansheikh007yt@gmail.com</p>
           </motion.div>
 
           <motion.div
@@ -123,7 +127,7 @@ export function ContactPage() {
               <Phone className="w-5 h-5 text-primary" strokeWidth={2} />
             </div>
             <h3 className="font-semibold text-dark dark:text-white mb-1 text-[15px]">Phone</h3>
-            <p className="text-[13px] text-muted">+1 (555) 123-4567</p>
+            <p className="text-[13px] text-muted">+91 9106658815</p>
           </motion.div>
 
           <motion.div
@@ -136,7 +140,7 @@ export function ContactPage() {
               <MapPin className="w-5 h-5 text-primary" strokeWidth={2} />
             </div>
             <h3 className="font-semibold text-dark dark:text-white mb-1 text-[15px]">Location</h3>
-            <p className="text-[13px] text-muted leading-relaxed">San Francisco, CA<br />United States</p>
+            <p className="text-[13px] text-muted leading-relaxed">Palanpur, Gujarat<br />India</p>
           </motion.div>
 
           <motion.div

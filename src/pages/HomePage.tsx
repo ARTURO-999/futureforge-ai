@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Briefcase, TrendingUp, BookOpen, Users, Shield, BarChart3, Brain, Target, Zap, Award, Star, ChevronRight } from 'lucide-react';
+import { ArrowRight, Briefcase, TrendingUp, BookOpen, Users, Shield, BarChart3, Brain, Target, Zap, Award, Star, ChevronRight, Github, Twitter, Linkedin, Mail } from 'lucide-react';
 import { AnimatedCounter } from '../components/AnimatedCounter';
 
 const stats = [
@@ -22,14 +22,10 @@ const features = [
 ];
 
 const testimonials = [
-  { name: 'Sarah Chen', role: 'Frontend Developer', company: 'Stripe', quote: 'FutureForge helped me transition from marketing to tech. The roadmap was exactly what I needed.' },
-  { name: 'James Wilson', role: 'Data Scientist', company: 'Netflix', quote: 'The market intelligence dashboard gave me the confidence to negotiate a 40% higher salary.' },
-  { name: 'Priya Patel', role: 'Cloud Engineer', company: 'AWS', quote: 'I used the skill comparison to decide between AWS and Azure. Best career decision I have made.' },
-  { name: 'Marcus Johnson', role: 'AI Engineer', company: 'OpenAI', quote: 'The career quiz accurately predicted my fit for AI engineering. Now I am doing what I love.' },
-];
-
-const partners = [
-  'Google', 'Microsoft', 'Amazon', 'Meta', 'Stripe', 'Netflix', 'Airbnb', 'Shopify'
+  { name: 'Rohan M.', role: 'Frontend Developer', quote: 'FutureForge helped me transition from marketing to tech. The roadmap was exactly what I needed.' },
+  { name: 'Aisha K.', role: 'Data Scientist', quote: 'The market intelligence dashboard gave me the confidence to negotiate a 40% higher salary.' },
+  { name: 'Vikram S.', role: 'Cloud Engineer', quote: 'I used the skill comparison to decide between AWS and Azure. Best career decision I have made.' },
+  { name: 'Neha R.', role: 'AI Engineer', quote: 'The career quiz accurately predicted my fit for AI engineering. Now I am doing what I love.' },
 ];
 
 export function HomePage() {
@@ -185,20 +181,6 @@ export function HomePage() {
         </div>
       </section>
 
-      {/* Trusted By */}
-      <section className="py-12 border-y border-border dark:border-white/[0.06]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-[13px] text-muted mb-8 uppercase tracking-wider font-semibold">Trusted by professionals at</p>
-          <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-12">
-            {partners.map((partner) => (
-              <span key={partner} className="text-lg font-semibold text-gray-300 dark:text-slate-600 hover:text-gray-400 dark:hover:text-slate-500 transition-colors duration-300">
-                {partner}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Top Careers */}
       <section className="section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -340,7 +322,7 @@ export function HomePage() {
                   </div>
                   <div>
                     <p className="text-[14px] font-semibold text-dark dark:text-white">{t.name}</p>
-                    <p className="text-[12px] text-muted">{t.role} at {t.company}</p>
+                    <p className="text-[12px] text-muted">{t.role}</p>
                   </div>
                 </div>
               </motion.div>
@@ -371,6 +353,43 @@ export function HomePage() {
                   Take Career Quiz
                 </Link>
               </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Built by */}
+      <section className="py-10 border-t border-border dark:border-white/[0.06]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="flex flex-col items-center justify-center gap-3"
+          >
+            <p className="text-[13px] text-muted font-medium tracking-wide">Built by <span className="text-dark dark:text-white font-semibold">Farhan Sheikh</span></p>
+            <div className="flex gap-2">
+              {[
+                { Icon: Github, href: 'https://github.com/ARTURO-999', label: 'GitHub' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/farhan-sheikh-749649377?utm_source=share_via&utm_content=profile&utm_medium=member_ios', label: 'LinkedIn' },
+                { Icon: Twitter, href: 'https://x.com/FarhanSheikh999', label: 'X' },
+                { Icon: Mail, href: 'mailto:farhansheikh007yt@gmail.com', label: 'Email' },
+              ].map(({ Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="relative group"
+                >
+                  <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary to-accent opacity-0 blur-[4px] group-hover:opacity-40 transition-opacity duration-300" />
+                  <div className="relative p-2 rounded-xl bg-gray-50 dark:bg-white/[0.04] text-muted hover:text-primary dark:hover:text-slate-300 hover:bg-gray-100 dark:hover:bg-white/[0.08] transition-all duration-300 hover:scale-110 hover:-translate-y-0.5">
+                    <Icon size={16} strokeWidth={2} />
+                  </div>
+                </a>
+              ))}
             </div>
           </motion.div>
         </div>
