@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Target, Eye, Heart, Users, Rocket, Shield } from 'lucide-react';
+import { Target, Eye, Heart, Users, Rocket, Shield, BookOpen, FileText } from 'lucide-react';
 
 const values = [
   { icon: Target, title: 'Precision', desc: 'Data-driven insights for every career decision.' },
@@ -97,6 +97,44 @@ export function AboutPage() {
           ))}
         </div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="mt-20"
+      >
+        <h2 className="text-3xl font-bold text-dark dark:text-white text-center mb-10">Knowledge Base</h2>
+        <div className="max-w-2xl mx-auto">
+          <div className="card p-8 text-center">
+            <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
+              <BookOpen className="w-6 h-6 text-primary" />
+            </div>
+            <h3 className="text-xl font-bold text-dark dark:text-white mb-3">FutureForge AI Knowledge Base</h3>
+            <p className="text-sm text-muted leading-relaxed mb-6 max-w-md mx-auto">
+              A comprehensive reference document covering all careers, skills, market trends, roadmaps, resources, and 100+ FAQs. Available for download as PDF or Markdown.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href="/FutureForge-Knowledge-Base.pdf"
+                download
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-white font-medium text-sm hover:opacity-90 transition-opacity duration-200"
+              >
+                <FileText className="w-4 h-4" />
+                Download PDF
+              </a>
+              <a
+                href="/knowledge-base.md"
+                download="FutureForge-Knowledge-Base.md"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-border dark:border-white/[0.06] text-dark dark:text-white font-medium text-sm hover:bg-gray-50 dark:hover:bg-white/[0.04] transition-all duration-200"
+              >
+                <BookOpen className="w-4 h-4" />
+                Download Markdown
+              </a>
+            </div>
+          </div>
+        </div>
+      </motion.div>
     </div>
   );
 }
