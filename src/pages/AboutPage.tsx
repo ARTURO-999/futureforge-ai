@@ -77,59 +77,51 @@ export function AboutPage() {
       >
         <h2 className="text-3xl font-bold text-dark dark:text-white text-center mb-10">Meet the Founder</h2>
         <div className="max-w-lg mx-auto">
-          <div className="relative group">
-            <div className="absolute -inset-[1px] rounded-3xl bg-gradient-to-br from-primary via-accent to-primary opacity-30 blur-[1px] group-hover:opacity-60 transition-opacity duration-500" />
-            <div className="absolute -inset-[1px] rounded-3xl bg-gradient-to-br from-primary via-accent to-primary opacity-20 group-hover:opacity-50 transition-opacity duration-500" />
-            <div className="relative card p-8 text-center overflow-hidden bg-white/80 dark:bg-[#0B0F1A]/80 backdrop-blur-xl">
-              <div className="relative mx-auto mb-6">
-                <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-0 blur-[2px] group-hover:opacity-60 transition-all duration-500" />
-                <div className="relative w-28 h-28 rounded-full overflow-hidden shadow-md shadow-slate-400/20 dark:shadow-black/20 border-2 border-slate-200 dark:border-slate-700">
-                  <img
-                    src={founderAvatar}
-                    alt="Farhan Sheikh"
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.currentTarget;
-                      target.style.display = 'none';
-                      const fallback = target.parentElement?.querySelector('.fallback-avatar') as HTMLElement;
-                      if (fallback) fallback.style.display = 'flex';
-                    }}
-                  />
-                  <div className="fallback-avatar absolute inset-0 hidden items-center justify-center bg-gradient-to-br from-primary to-accent text-white text-3xl font-bold tracking-wider">
-                    FS
-                  </div>
-                </div>
-                <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-green-500 border-2 border-white dark:border-[#0B0F1A] flex items-center justify-center shadow-md">
-                  <div className="w-2 h-2 rounded-full bg-white animate-pulse" />
+          <div className="p-8 text-center overflow-hidden rounded-3xl bg-white dark:bg-[#151B2B] border border-black/[0.06] dark:border-white/[0.06] shadow-[0_0_0_1px_rgba(0,0,0,0.02),0_1px_4px_rgba(0,0,0,0.03)] dark:shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_1px_4px_rgba(0,0,0,0.3)]">
+            <div className="relative mx-auto mb-6">
+              <div className="relative w-28 h-28 rounded-full overflow-hidden shadow-md shadow-slate-400/20 dark:shadow-black/20 border-2 border-slate-200 dark:border-slate-700">
+                <img
+                  src={founderAvatar}
+                  alt="Farhan Sheikh"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.style.display = 'none';
+                    const fallback = target.parentElement?.querySelector('.fallback-avatar') as HTMLElement;
+                    if (fallback) fallback.style.display = 'flex';
+                  }}
+                />
+                <div className="fallback-avatar absolute inset-0 hidden items-center justify-center bg-gradient-to-br from-primary to-accent text-white text-3xl font-bold tracking-wider">
+                  FS
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-dark dark:text-white mb-1">Farhan Sheikh</h3>
-              <p className="text-sm font-medium text-primary mb-4">Founder & Creator of FutureForge AI</p>
-              <p className="text-sm text-muted leading-relaxed mb-6 text-center">
-                Farhan Sheikh is the sole creator and developer of FutureForge AI. He designed and built the platform using modern AI-assisted development tools with a strong focus on helping students and professionals make smarter career decisions. His goal is to simplify career planning through intelligent roadmaps, skill analysis, AI-powered guidance, and an exceptional user experience. FutureForge AI reflects his passion for technology, innovation, and creating impactful digital products.
-              </p>
-              <div className="flex justify-center gap-3">
-                {[
-                  { Icon: Github, href: 'https://github.com/ARTURO-999', label: 'GitHub' },
-                  { Icon: Linkedin, href: 'https://www.linkedin.com/in/farhan-sheikh-749649377?utm_source=share_via&utm_content=profile&utm_medium=member_ios', label: 'LinkedIn' },
-                  { Icon: Twitter, href: 'https://x.com/FarhanSheikh999', label: 'X' },
-                  { Icon: Mail, href: 'mailto:farhansheikh007yt@gmail.com', label: 'Email' },
-                ].map(({ Icon, href, label }) => (
-                  <a
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={label}
-                    className="relative group/icon"
-                  >
-                    <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary to-accent opacity-0 blur-[4px] group-hover/icon:opacity-40 transition-opacity duration-300" />
-                    <div className="relative p-2.5 rounded-xl bg-gray-50 dark:bg-white/[0.04] text-muted hover:text-primary dark:hover:text-slate-300 hover:bg-gray-100 dark:hover:bg-white/[0.08] transition-all duration-300 hover:scale-110 hover:-translate-y-0.5">
-                      <Icon size={18} strokeWidth={2} />
-                    </div>
-                  </a>
-                ))}
+              <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-green-500 border-2 border-white dark:border-[#0B0F1A] flex items-center justify-center shadow-md">
+                <div className="w-2 h-2 rounded-full bg-white" />
               </div>
+            </div>
+            <h3 className="text-xl font-bold text-dark dark:text-white mb-1">Farhan Sheikh</h3>
+            <p className="text-sm font-medium text-primary mb-4">Founder & Creator of FutureForge AI</p>
+            <p className="text-sm text-muted leading-relaxed mb-6 text-center">
+              Farhan Sheikh is the sole creator and developer of FutureForge AI. He designed and built the platform using modern AI-assisted development tools with a strong focus on helping students and professionals make smarter career decisions. His goal is to simplify career planning through intelligent roadmaps, skill analysis, AI-powered guidance, and an exceptional user experience. FutureForge AI reflects his passion for technology, innovation, and creating impactful digital products.
+            </p>
+            <div className="flex justify-center gap-3">
+              {[
+                { Icon: Github, href: 'https://github.com/ARTURO-999', label: 'GitHub' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/farhan-sheikh-749649377?utm_source=share_via&utm_content=profile&utm_medium=member_ios', label: 'LinkedIn' },
+                { Icon: Twitter, href: 'https://x.com/FarhanSheikh999', label: 'X' },
+                { Icon: Mail, href: 'mailto:farhansheikh007yt@gmail.com', label: 'Email' },
+              ].map(({ Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="p-2.5 rounded-xl bg-gray-50 dark:bg-white/[0.04] text-muted"
+                >
+                  <Icon size={18} strokeWidth={2} />
+                </a>
+              ))}
             </div>
           </div>
         </div>
