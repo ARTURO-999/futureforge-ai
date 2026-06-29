@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Target, Eye, Heart, Users, Rocket, Shield, Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import founderAvatar from '../assets/images/WhatsApp_Image_2026-06-28_at_12.25.42_PM.jpeg';
 
 const values = [
   { icon: Target, title: 'Precision', desc: 'Data-driven insights for every career decision.' },
@@ -83,8 +84,21 @@ export function AboutPage() {
               <div className="relative mx-auto mb-6">
                 <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-60 blur-[1px] group-hover:opacity-100 group-hover:blur-[2px] transition-all duration-500" />
                 <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-40 animate-pulse" />
-                <div className="relative w-28 h-28 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white text-3xl font-bold tracking-wider shadow-lg shadow-primary/20">
-                  FS
+                <div className="relative w-28 h-28 rounded-full overflow-hidden shadow-lg shadow-primary/20 bg-gradient-to-br from-primary to-accent">
+                  <img
+                    src={founderAvatar}
+                    alt="Farhan Sheikh"
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.style.display = 'none';
+                      const fallback = target.parentElement?.querySelector('.fallback-avatar') as HTMLElement;
+                      if (fallback) fallback.style.display = 'flex';
+                    }}
+                  />
+                  <div className="fallback-avatar absolute inset-0 hidden items-center justify-center text-white text-3xl font-bold tracking-wider">
+                    FS
+                  </div>
                 </div>
                 <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-green-500 border-2 border-white dark:border-[#0B0F1A] flex items-center justify-center shadow-md">
                   <div className="w-2 h-2 rounded-full bg-white animate-pulse" />

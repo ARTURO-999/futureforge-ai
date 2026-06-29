@@ -7,7 +7,6 @@ import { Footer } from './components/Footer';
 import { ScrollProgress } from './components/ScrollProgress';
 import { ScrollToTop } from './components/ScrollToTop';
 import { BackToTop } from './components/BackToTop';
-import { FloatingChatbot } from './components/FloatingChatbot';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { CareersPage } from './pages/CareersPage';
@@ -74,7 +73,6 @@ function App() {
             <Footer />
             <ScrollToTop />
           <BackToTop />
-          <FloatingChatbot />
           </div>
         </BrowserRouter>
       </ToastProvider>
