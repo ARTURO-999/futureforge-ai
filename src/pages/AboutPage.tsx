@@ -82,9 +82,8 @@ export function AboutPage() {
             <div className="absolute -inset-[1px] rounded-3xl bg-gradient-to-br from-primary via-accent to-primary opacity-20 group-hover:opacity-50 transition-opacity duration-500" />
             <div className="relative card p-8 text-center overflow-hidden bg-white/80 dark:bg-[#0B0F1A]/80 backdrop-blur-xl">
               <div className="relative mx-auto mb-6">
-                <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-60 blur-[1px] group-hover:opacity-100 group-hover:blur-[2px] transition-all duration-500" />
-                <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-40 animate-pulse" />
-                <div className="relative w-28 h-28 rounded-full overflow-hidden shadow-lg shadow-primary/20 bg-gradient-to-br from-primary to-accent">
+                <div className="absolute -inset-[2px] rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-0 blur-[2px] group-hover:opacity-60 transition-all duration-500" />
+                <div className="relative w-28 h-28 rounded-full overflow-hidden shadow-md shadow-slate-400/20 dark:shadow-black/20 border-2 border-slate-200 dark:border-slate-700">
                   <img
                     src={founderAvatar}
                     alt="Farhan Sheikh"
@@ -96,7 +95,7 @@ export function AboutPage() {
                       if (fallback) fallback.style.display = 'flex';
                     }}
                   />
-                  <div className="fallback-avatar absolute inset-0 hidden items-center justify-center text-white text-3xl font-bold tracking-wider">
+                  <div className="fallback-avatar absolute inset-0 hidden items-center justify-center bg-gradient-to-br from-primary to-accent text-white text-3xl font-bold tracking-wider">
                     FS
                   </div>
                 </div>
@@ -106,7 +105,7 @@ export function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-dark dark:text-white mb-1">Farhan Sheikh</h3>
               <p className="text-sm font-medium text-primary mb-4">Founder & Creator of FutureForge AI</p>
-              <p className="text-sm text-muted leading-relaxed mb-6">
+              <p className="text-sm text-muted leading-relaxed mb-6 text-center">
                 Farhan Sheikh is the sole creator and developer of FutureForge AI. He designed and built the platform using modern AI-assisted development tools with a strong focus on helping students and professionals make smarter career decisions. His goal is to simplify career planning through intelligent roadmaps, skill analysis, AI-powered guidance, and an exceptional user experience. FutureForge AI reflects his passion for technology, innovation, and creating impactful digital products.
               </p>
               <div className="flex justify-center gap-3">
