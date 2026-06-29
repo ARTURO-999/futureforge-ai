@@ -272,4 +272,12 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Chatbase widget — ensure compact, polished, responsive positioning */
+  chatbase-bubble-button,
+  #chatbase-bubble-button,
+  iframe[id*="chatbase"],
+  .chatbase-bubble-button {
+    z-index: 9999 !important;
+  }
 }

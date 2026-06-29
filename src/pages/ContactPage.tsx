@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, Mail, MapPin, Phone, MessageSquare } from 'lucide-react';
+import { Send, Mail, MapPin, Phone } from 'lucide-react';
 import { useToast } from '../components/Toast';
 
 export function ContactPage() {
@@ -103,7 +103,7 @@ export function ContactPage() {
           </motion.form>
         </div>
 
-        <div className="space-y-6">
+        <div className="grid sm:grid-cols-2 gap-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -143,19 +143,7 @@ export function ContactPage() {
             <p className="text-[13px] text-muted leading-relaxed">Palanpur, Gujarat<br />India</p>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="card p-6"
-          >
-            <div className="w-10 h-10 rounded-xl bg-primary/[0.08] flex items-center justify-center mb-4">
-              <MessageSquare className="w-5 h-5 text-primary" strokeWidth={2} />
-            </div>
-            <h3 className="font-semibold text-dark dark:text-white mb-1 text-[15px]">AI Assistant</h3>
-            <p className="text-[13px] text-muted mb-3 leading-relaxed">Get instant answers to your career questions.</p>
-            <p className="text-[13px] text-muted">Use the floating chat icon in the corner.</p>
-          </motion.div>
+
         </div>
       </div>
     </div>
